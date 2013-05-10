@@ -1,5 +1,6 @@
 $(document).ready( function() {
 	$("#downloadPdf").click( function(e) {
+		moveawayprompt = false; //To remove the prompt while generating PDF
 		var url = '/teachers/pdf.js';
 		var success;
         var pdfTitle = $('#step1_name').val();

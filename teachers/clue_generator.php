@@ -16,6 +16,7 @@ require '../common/header.php';
         <script language="javascript" type="text/javascript" src="../scripts.js"></script>
         <script language="javascript" type="text/javascript">
             <!--
+            var moveawayprompt = true;
             var alpha_chars="abcdefghijklmnopqrstuvwxyz";
             var alpha_chars_up=alpha_chars.toUpperCase();
             var alpha_new="";
@@ -2508,8 +2509,11 @@ require '../common/header.php';
             window.onbeforeunload=confirmClick;
             function confirmClick()
             	{
-                confirmation=currentMessage;
-                return confirmation;
+					if(moveawayprompt)
+					{
+						confirmation=currentMessage;
+						return confirmation;
+					}
            		}
             // -->
         </script>
