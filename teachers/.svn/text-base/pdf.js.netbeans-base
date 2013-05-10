@@ -1,0 +1,22 @@
+$(document).ready( function() {
+	$("#downloadPdf").click( function(e) {
+		var url = '/teachers/pdf.js';
+		var success;
+		$("#downloadPdf").unbind('click');
+		$.ajax({
+			url: url,
+			dataType: 'script',
+			success: success
+		});
+		
+		$.post( '/teachers/process.php', {
+				action: 'process', 
+				clues: clues
+			}, function( fileName ) {
+				alert( 'Process can take a few minutes, please be patient' );
+				window.location.href = '/teachers/process.php?action=download&fileName=' + fileName
+			})
+		
+			e.preventDefault();
+		})
+})

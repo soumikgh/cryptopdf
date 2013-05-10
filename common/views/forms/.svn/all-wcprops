@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cryptopdf/!svn/ver/411/public_html/common/views/forms
+END
+login_submit.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cryptopdf/!svn/ver/399/public_html/common/views/forms/login_submit.php
+END
+register_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/register_email.php
+END
+register_optin.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/register_optin.php
+END
+login_element.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/411/public_html/common/views/forms/login_element.php
+END
+spare_element.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/spare_element.php
+END
+register_default_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/register_default_group.php
+END
+register_parent_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/register_parent_email.php
+END
+register_default.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cryptopdf/!svn/ver/33/public_html/common/views/forms/register_default.php
+END

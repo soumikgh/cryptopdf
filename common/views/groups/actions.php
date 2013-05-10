@@ -1,0 +1,2 @@
+<a href="?action=sendEmail&amp;groupId=<?php echo $id ?>" class="verdana_12pxBlueB">Invite</a> <br />
+<a href="?action=delete&amp;groupId=<?php echo $id ?>" onclick="return confirm('Are you sure you want to delete this group?');"class="delete verdana_12pxBlueB">Delete</a>

@@ -1,0 +1,1076 @@
+[23-Jun-2011 21:49:04] PHP Warning:  require(../common/header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:49:04] PHP Warning:  require(../common/header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:49:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../common/header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:49:05] PHP Warning:  require(../common/header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:49:05] PHP Warning:  require(../common/header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:49:05] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../common/header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cryptocl/public_html/teachers/process.php on line 3
+[23-Jun-2011 21:50:18] #### 80 ####
+[23-Jun-2011 21:50:18] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => Test
+                    [1] => completely&#0160;reinvent&#0160;fully&#0160;tested&#0160;paradigms<br />DPNQMFUFMZ&#0160;SFJOWFOU&#0160;GVMMZ&#0160;UFTUFE&#0160;QBSBEJHNT<br /><br />through&#0160;cross-platform&#0160;scenarios.<br />UISPVHI&#0160;DSPTT-QMBUGPSN&#0160;TDFOBSJPT.<br /><br />continually&#0160;disintermediate&#0160;maintainable<br />DPOUJOVBMMZ&#0160;EJTJOUFSNFEJBUF&#0160;NBJOUBJOBCMF<br /><br />content&#0160;whereas&#0160;intuitive&#0160;e-commerce.<br />DPOUFOU&#0160;XIFSFBT&#0160;JOUVJUJWF&#0160;F-DPNNFSDF.
+                    [2] => Affine
+                    [3] => 1
+                    [4] => 1
+                    [5] => true
+                    [6] => Completely reinvent fully tested paradigms through cross-platform scenarios. Continually disintermediate maintainable content whereas intuitive e-commerce.
+                    [7] => DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+                )
+
+        )
+
+)
+
+[23-Jun-2011 21:50:18] #### 20 ####
+[23-Jun-2011 21:50:18] DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+[23-Jun-2011 21:50:18] PHP Warning:  require_once(../html2ps_v2043/public_html/config.inc.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.lettersportrait.php on line 119
+[23-Jun-2011 21:50:18] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../html2ps_v2043/public_html/config.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cryptocl/public_html/common/class.lettersportrait.php on line 119
+[23-Jun-2011 22:05:40] #### 80 ####
+[23-Jun-2011 22:05:40] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => test
+                    [1] => completely&#0160;reinvent&#0160;fully&#0160;tested&#0160;paradigms<br />DPNQMFUFMZ&#0160;SFJOWFOU&#0160;GVMMZ&#0160;UFTUFE&#0160;QBSBEJHNT<br /><br />through&#0160;cross-platform&#0160;scenarios.<br />UISPVHI&#0160;DSPTT-QMBUGPSN&#0160;TDFOBSJPT.<br /><br />continually&#0160;disintermediate&#0160;maintainable<br />DPOUJOVBMMZ&#0160;EJTJOUFSNFEJBUF&#0160;NBJOUBJOBCMF<br /><br />content&#0160;whereas&#0160;intuitive&#0160;e-commerce.<br />DPOUFOU&#0160;XIFSFBT&#0160;JOUVJUJWF&#0160;F-DPNNFSDF.
+                    [2] => Affine
+                    [3] => 1
+                    [4] => 1
+                    [5] => true
+                    [6] => Completely reinvent fully tested paradigms through cross-platform scenarios. Continually disintermediate maintainable content whereas intuitive e-commerce.
+                    [7] => DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+                )
+
+        )
+
+)
+
+[23-Jun-2011 22:05:40] #### 20 ####
+[23-Jun-2011 22:05:40] DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+[23-Jun-2011 22:22:10] #### 20 ####
+[23-Jun-2011 22:22:10] DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+[23-Jun-2011 22:42:42] ####  ####
+[23-Jun-2011 22:42:42] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => test
+                    [1] => completely&#0160;reinvent&#0160;fully&#0160;tested&#0160;paradigms<br />DPNQMFUFMZ&#0160;SFJOWFOU&#0160;GVMMZ&#0160;UFTUFE&#0160;QBSBEJHNT<br /><br />through&#0160;cross-platform&#0160;scenarios.<br />UISPVHI&#0160;DSPTT-QMBUGPSN&#0160;TDFOBSJPT.<br /><br />continually&#0160;disintermediate&#0160;maintainable<br />DPOUJOVBMMZ&#0160;EJTJOUFSNFEJBUF&#0160;NBJOUBJOBCMF<br /><br />content&#0160;whereas&#0160;intuitive&#0160;e-commerce.<br />DPOUFOU&#0160;XIFSFBT&#0160;JOUVJUJWF&#0160;F-DPNNFSDF.
+                    [2] => Affine
+                    [3] => 1
+                    [4] => 1
+                    [5] => true
+                    [6] => Completely reinvent fully tested paradigms through cross-platform scenarios. Continually disintermediate maintainable content whereas intuitive e-commerce.
+                    [7] => DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+                )
+
+        )
+
+)
+
+[23-Jun-2011 22:42:42] #### 20 ####
+[23-Jun-2011 22:42:42] DPNQMFUFMZ SFJOWFOU GVMMZ UFTUFE QBSBEJHNT
+UISPVHI DSPTT-QMBUGPSN TDFOBSJPT.
+DPOUJOVBMMZ EJTJOUFSNFEJBUF NBJOUBJOBCMF
+DPOUFOU XIFSFBT JOUVJUJWF F-DPNNFSDF.
+[23-Jun-2011 22:42:42] ####  ####
+[23-Jun-2011 22:42:42] Array
+(
+    [action] => download
+    [fileName] => HSQVVDLFMFFFedgPCnKl.html
+)
+
+[23-Jun-2011 22:43:17] ####  ####
+[23-Jun-2011 22:43:17] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => test
+                    [1] => &#0160;c&#0160;&#0160;o&#0160;&#0160;m&#0160;&#0160;p&#0160;&#0160;l&#0160;&#0160;e&#0160;&#0160;t&#0160;&#0160;e&#0160;&#0160;l&#0160;&#0160;y<br />02 14 12 15 11 04 19 04 11 24<br /><br />&#0160;r &#0160;e &#0160;i &#0160;n &#0160;v &#0160;e &#0160;n &#0160;t&#0160;&#0160;&#0160; f &#0160;u &#0160;l &#0160;l &#0160;y<br />17 04 08 13 21 04 13 19&#0160;&#0160;&#0160;05 20 11 11 24<br /><br />&#0160;t &#0160;e &#0160;s &#0160;t &#0160;e &#0160;d<br />19 04 18 19 04 03<br /><br />&#0160;p &#0160;a &#0160;r &#0160;a &#0160;d &#0160;i &#0160;g &#0160;m &#0160;s<br />15 00 17 00 03 08 06 12 18<br /><br />&#0160;t &#0160;h &#0160;r &#0160;o &#0160;u &#0160;g &#0160;h<br />19 07 17 14 20 06 07<br /><br />&#0160;c &#0160;r &#0160;o &#0160;s &#0160;s- &#0160;p &#0160;l &#0160;a &#0160;t &#0160;f &#0160;o &#0160;r &#0160;m<br />02 17 14 18 18- 15 11 00 19 05 14 17 12<br /><br />&#0160;s &#0160;c &#0160;e &#0160;n &#0160;a &#0160;r &#0160;i &#0160;o &#0160;s.<br />18 02 04 13 00 17 08 14 18.<br /><br />&#0160;c &#0160;o &#0160;n &#0160;t &#0160;i &#0160;n &#0160;u &#0160;a &#0160;l &#0160;l &#0160;y<br />02 14 13 19 08 13 20 00 11 11 24<br /><br />&#0160;d &#0160;i &#0160;s &#0160;i &#0160;n &#0160;t &#0160;e &#0160;r &#0160;m &#0160;e &#0160;d &#0160;i &#0160;a &#0160;t &#0160;e<br />03 08 18 08 13 19 04 17 12 04 03 08 00 19 04<br /><br />&#0160;m &#0160;a &#0160;i &#0160;n &#0160;t &#0160;a &#0160;i &#0160;n &#0160;a &#0160;b &#0160;l &#0160;e<br />12 00 08 13 19 00 08 13 00 01 11 04<br /><br />&#0160;c &#0160;o &#0160;n &#0160;t &#0160;e &#0160;n &#0160;t&#0160;&#0160;&#0160; w &#0160;h &#0160;e &#0160;r &#0160;e &#0160;a &#0160;s<br />02 14 13 19 04 13 19&#0160;&#0160;&#0160;22 07 04 17 04 00 18<br /><br />&#0160;i &#0160;n &#0160;t &#0160;u &#0160;i &#0160;t &#0160;i &#0160;v &#0160;e<br />08 13 19 20 08 19 08 21 04<br /><br />&#0160;e- &#0160;c &#0160;o &#0160;m &#0160;m &#0160;e &#0160;r &#0160;c &#0160;e.<br />04- 02 14 12 12 04 17 02 04.
+                    [2] => Additive
+                    [3] => 0
+                    [4] => none
+                    [5] => true
+                    [6] => Completely reinvent fully tested paradigms through cross-platform scenarios. Continually disintermediate maintainable content whereas intuitive e-commerce.
+                    [7] => 02 14 12 15 11 04 19 04 11 24
+17 04 08 13 21 04 13 19   05 20 11 11 24
+19 04 18 19 04 03
+15 00 17 00 03 08 06 12 18
+19 07 17 14 20 06 07
+02 17 14 18 18- 15 11 00 19 05 14 17 12
+18 02 04 13 00 17 08 14 18.
+02 14 13 19 08 13 20 00 11 11 24
+03 08 18 08 13 19 04 17 12 04 03 08 00 19 04
+12 00 08 13 19 00 08 13 00 01 11 04
+02 14 13 19 04 13 19   22 07 04 17 04 00 18
+08 13 19 20 08 19 08 21 04
+04- 02 14 12 12 04 17 02 04.
+                )
+
+        )
+
+)
+
+[23-Jun-2011 22:43:21] ####  ####
+[23-Jun-2011 22:43:21] Array
+(
+    [action] => download
+    [fileName] => ZhlXfEMyhOrJyImZqBzz.html
+)
+
+[24-Jun-2011 00:47:36] ####  ####
+[24-Jun-2011 00:47:36] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => Desk
+                    [1] => find&#0160;a&#0160;map&#0160;that<br />ILQG&#0160;D&#0160;PDS&#0160;WKDW<br /><br />shows&#0160;it&#0160;all.<br />VKRZV&#0160;LW&#0160;DOO.<br /><br />it&#0160;shows&#0160;the&#0160;world<br />LW&#0160;VKRZV&#0160;WKH&#0160;ZRUOG<br /><br />on&#0160;one&#0160;big&#0160;ball.<br />RQ&#0160;RQH&#0160;ELJ&#0160;EDOO.
+                    [2] => Caesar
+                    [3] => 3
+                    [4] => none
+                    [5] => true
+                    [6] => Find a map that
+shows it all.
+It shows the world
+on one big ball.
+                    [7] => ILQG D PDS WKDW
+VKRZV LW DOO.
+LW VKRZV WKH ZRUOG
+RQ RQH ELJ EDOO.
+                )
+
+            [1] => Array
+                (
+                    [0] => table
+                    [1] => sometimes&#0160;black,<br />MGDZNODZM&#0160;WCVXB,<br /><br />sometimes&#0160;white,<br />MGDZNODZM&#0160;RLONZ,<br /><br />this&#0160;is&#0160;a&#0160;board&#0160;on<br />NLOM&#0160;OM&#0160;V&#0160;WGVKY&#0160;GF<br /><br />which&#0160;to&#0160;write.<br />RLOXL&#0160;NG&#0160;RKONZ.
+                    [2] => Keyword
+                    [3] => HELO
+                    [4] => F
+                    [5] => true
+                    [6] => Sometimes black,
+sometimes white,
+This is a board on
+which to write.
+                    [7] => MGDZNODZM WCVXB,
+MGDZNODZM RLONZ,
+NLOM OM V WGVKY GF
+RLOXL NG RKONZ.
+                )
+
+            [2] => Array
+                (
+                    [0] => globe
+                    [1] => sometimes&#0160;black,<br />XTRJYNRJX&#0160;GQFHP,<br /><br />sometimes&#0160;white,<br />XTRJYNRJX&#0160;BMNYJ,<br /><br />this&#0160;is&#0160;a&#0160;board&#0160;on<br />YMNX&#0160;NX&#0160;F&#0160;GTFWI&#0160;TS<br /><br />which&#0160;to&#0160;write.<br />BMNHM&#0160;YT&#0160;BWNYJ.
+                    [2] => Caesar
+                    [3] => 5
+                    [4] => none
+                    [5] => true
+                    [6] => Sometimes black,
+sometimes white,
+This is a board on
+which to write.
+                    [7] => XTRJYNRJX GQFHP,
+XTRJYNRJX BMNYJ,
+YMNX NX F GTFWI TS
+BMNHM YT BWNYJ.
+                )
+
+        )
+
+)
+
+[24-Jun-2011 00:47:36] #### 20 ####
+[24-Jun-2011 00:47:36] ILQG D PDS WKDW
+VKRZV LW DOO.
+LW VKRZV WKH ZRUOG
+RQ RQH ELJ EDOO.
+[24-Jun-2011 00:47:36] #### 20 ####
+[24-Jun-2011 00:47:36] MGDZNODZM WCVXB,
+MGDZNODZM RLONZ,
+NLOM OM V WGVKY GF
+RLOXL NG RKONZ.
+[24-Jun-2011 00:47:36] #### 20 ####
+[24-Jun-2011 00:47:36] XTRJYNRJX GQFHP,
+XTRJYNRJX BMNYJ,
+YMNX NX F GTFWI TS
+BMNHM YT BWNYJ.
+[24-Jun-2011 00:47:39] ####  ####
+[24-Jun-2011 00:47:39] Array
+(
+    [action] => download
+    [fileName] => JpseJQlVtPofQsIAguzT.html
+)
+
+[24-Jun-2011 02:07:41] ####  ####
+[24-Jun-2011 02:07:41] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => closet
+                    [1] => &#0160;l&#0160;&#0160;o&#0160;&#0160;o&#0160;&#0160;k&#0160;&#0160;&#0160; i &#0160;n&#0160;&#0160;&#0160; t &#0160;h &#0160;e<br />16 19 19 15&#0160;&#0160;&#0160;13 18&#0160;&#0160;&#0160;24 12 09<br /><br />&#0160;c &#0160;l &#0160;o &#0160;s &#0160;e &#0160;t&#0160;&#0160;&#0160; a &#0160;n &#0160;d&#0160;&#0160;&#0160; y &#0160;o &#0160;u<br />07 16 19 23 09 24&#0160;&#0160;&#0160;05 18 08&#0160;&#0160;&#0160;03 19 25<br /><br />&#0160;w &#0160;i &#0160;l &#0160;l&#0160;&#0160;&#0160; f &#0160;i &#0160;n &#0160;d<br />01 13 16 16&#0160;&#0160;&#0160;10 13 18 08<br /><br />&#0160;w &#0160;h &#0160;a &#0160;t&#0160;&#0160;&#0160; y &#0160;o &#0160;u<br /> 01 12 05 24&#0160;&#0160;&#0160;03 19 25<br /><br />&#0160;w &#0160;a &#0160;n &#0160;t-- &#0160;y &#0160;o &#0160;u&#0160;&#0160;&#0160; w &#0160;o &#0160;n &#0160;t<br />01 05 18 24-- 03 19 25&#0160;&#0160;&#0160;01 19 18 24<br /><br />&#0160;m &#0160;i &#0160;n &#0160;d<br />17 13 18 08
+                    [2] => Additive
+                    [3] => 5
+                    [4] => none
+                    [5] => false
+                    [6] => look in the closet and you will find
+what you want--you wont mind
+                    [7] => 16 19 19 15   13 18   24 12 09
+07 16 19 23 09 24   05 18 08   03 19 25
+01 13 16 16   10 13 18 08
+ 01 12 05 24   03 19 25
+01 05 18 24-- 03 19 25   01 19 18 24
+17 13 18 08
+                )
+
+            [1] => Array
+                (
+                    [0] => sink
+                    [1] => water&#0160;is&#0160;here&#0160;and&#0160;so&#0160;is&#0160;your&#0160;next&#0160;clue.&#0160;read<br />SXOIL&#0160;RM&#0160;EILI&#0160;XFT&#0160;MG&#0160;RM&#0160;VGPL&#0160;FIUO&#0160;ZCPI.&#0160;LIXT<br /><br />carefully&#0160;to&#0160;learn&#0160;what&#0160;to&#0160;do<br />ZXLINPCCV&#0160;OG&#0160;CIXLF&#0160;SEXO&#0160;OG&#0160;TG
+                    [2] => Keyword
+                    [3] => TINKER
+                    [4] => D
+                    [5] => true
+                    [6] => water is here and so is your next clue. Read carefully to learn what to do
+                    [7] => SXOIL RM EILI XFT MG RM VGPL FIUO ZCPI. LIXT
+ZXLINPCCV OG CIXLF SEXO OG TG
+                )
+
+            [2] => Array
+                (
+                    [0] => table
+                    [1] => look&#0160;under&#0160;the&#0160;table&#0160;and&#0160;<br />HQQE&#0160;INJMZ&#0160;FVM&#0160;FADHM&#0160;ANJ&#0160;<br /><br />you&#0160;will&#0160;see&#0160;what&#0160;you&#0160;need&#0160;then&#0160;say&#0160;whee<br />UQI&#0160;OYHH&#0160;CMM&#0160;OVAF&#0160;UQI&#0160;NMMJ&#0160;FVMN&#0160;CAU&#0160;OVMM
+                    [2] => Multiplicative
+                    [3] => 3
+                    [4] => none
+                    [5] => true
+                    [6] => look under the table and 
+you will see what you need then say whee
+                    [7] => HQQE INJMZ FVM FADHM ANJ 
+UQI OYHH CMM OVAF UQI NMMJ FVMN CAU OVMM
+                )
+
+            [3] => Array
+                (
+                    [0] => door
+                    [1] => come&#0160;inside&#0160;or&#0160;go&#0160;outside&#0160;but&#0160;standing&#0160;here<br />UOYT&#0160;TRKIPT&#0160;ZV&#0160;YO&#0160;AJEWADQ&#0160;QFX&#0160;KTMCOMFG&#0160;TTCI<br /><br />is&#0160;no&#0160;palce&#0160;to&#0160;hide<br />AS&#0160;ZD&#0160;AEDCQ&#0160;IZ&#0160;LADQ
+                    [2] => Vigenere
+                    [3] => SAMPLE
+                    [4] => none
+                    [5] => true
+                    [6] => come inside or go outside but standing here is no palce to hide
+                    [7] => UOYT TRKIPT ZV YO AJEWADQ QFX KTMCOMFG TTCI
+AS ZD AEDCQ IZ LADQ
+                )
+
+        )
+
+)
+
+[24-Jun-2011 02:07:41] #### 20 ####
+[24-Jun-2011 02:07:41] SXOIL RM EILI XFT MG RM VGPL FIUO ZCPI. LIXT
+ZXLINPCCV OG CIXLF SEXO OG TG
+[24-Jun-2011 02:07:41] #### 20 ####
+[24-Jun-2011 02:07:41] HQQE INJMZ FVM FADHM ANJ 
+UQI OYHH CMM OVAF UQI NMMJ FVMN CAU OVMM
+[24-Jun-2011 02:07:41] #### 20 ####
+[24-Jun-2011 02:07:41] UOYT TRKIPT ZV YO AJEWADQ QFX KTMCOMFG TTCI
+AS ZD AEDCQ IZ LADQ
+[24-Jun-2011 02:07:52] ####  ####
+[24-Jun-2011 02:07:52] Array
+(
+    [action] => download
+    [fileName] => zCbIwSxUWZnBIPQPUkad.html
+)
+
+[24-Jun-2011 02:09:54] ####  ####
+[24-Jun-2011 02:09:54] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => closet
+                    [1] => &#0160;l&#0160;&#0160;o&#0160;&#0160;o&#0160;&#0160;k&#0160;&#0160;&#0160; i &#0160;n&#0160;&#0160;&#0160; t &#0160;h &#0160;e<br />16 19 19 15&#0160;&#0160;&#0160;13 18&#0160;&#0160;&#0160;24 12 09<br /><br />&#0160;c &#0160;l &#0160;o &#0160;s &#0160;e &#0160;t&#0160;&#0160;&#0160; a &#0160;n &#0160;d&#0160;&#0160;&#0160; y &#0160;o &#0160;u<br />07 16 19 23 09 24&#0160;&#0160;&#0160;05 18 08&#0160;&#0160;&#0160;03 19 25<br /><br />&#0160;w &#0160;i &#0160;l &#0160;l&#0160;&#0160;&#0160; f &#0160;i &#0160;n &#0160;d<br />01 13 16 16&#0160;&#0160;&#0160;10 13 18 08<br /><br />&#0160;w &#0160;h &#0160;a &#0160;t&#0160;&#0160;&#0160; y &#0160;o &#0160;u<br /> 01 12 05 24&#0160;&#0160;&#0160;03 19 25<br /><br />&#0160;w &#0160;a &#0160;n &#0160;t-- &#0160;y &#0160;o &#0160;u&#0160;&#0160;&#0160; w &#0160;o &#0160;n &#0160;t<br />01 05 18 24-- 03 19 25&#0160;&#0160;&#0160;01 19 18 24<br /><br />&#0160;m &#0160;i &#0160;n &#0160;d<br />17 13 18 08
+                    [2] => Additive
+                    [3] => 5
+                    [4] => none
+                    [5] => false
+                    [6] => look in the closet and you will find
+what you want--you wont mind
+                    [7] => 16 19 19 15   13 18   24 12 09
+07 16 19 23 09 24   05 18 08   03 19 25
+01 13 16 16   10 13 18 08
+ 01 12 05 24   03 19 25
+01 05 18 24-- 03 19 25   01 19 18 24
+17 13 18 08
+                )
+
+            [1] => Array
+                (
+                    [0] => sink
+                    [1] => water&#0160;is&#0160;here&#0160;and&#0160;so&#0160;is&#0160;your&#0160;next&#0160;clue.&#0160;read<br />SXOIL&#0160;RM&#0160;EILI&#0160;XFT&#0160;MG&#0160;RM&#0160;VGPL&#0160;FIUO&#0160;ZCPI.&#0160;LIXT<br /><br />carefully&#0160;to&#0160;learn&#0160;what&#0160;to&#0160;do<br />ZXLINPCCV&#0160;OG&#0160;CIXLF&#0160;SEXO&#0160;OG&#0160;TG
+                    [2] => Keyword
+                    [3] => TINKER
+                    [4] => D
+                    [5] => true
+                    [6] => water is here and so is your next clue. Read carefully to learn what to do
+                    [7] => SXOIL RM EILI XFT MG RM VGPL FIUO ZCPI. LIXT
+ZXLINPCCV OG CIXLF SEXO OG TG
+                )
+
+            [2] => Array
+                (
+                    [0] => table
+                    [1] => look&#0160;under&#0160;the&#0160;table&#0160;and&#0160;<br />HQQE&#0160;INJMZ&#0160;FVM&#0160;FADHM&#0160;ANJ&#0160;<br /><br />you&#0160;will&#0160;see&#0160;what&#0160;you&#0160;need&#0160;then&#0160;say&#0160;whee<br />UQI&#0160;OYHH&#0160;CMM&#0160;OVAF&#0160;UQI&#0160;NMMJ&#0160;FVMN&#0160;CAU&#0160;OVMM
+                    [2] => Multiplicative
+                    [3] => 3
+                    [4] => none
+                    [5] => true
+                    [6] => look under the table and 
+you will see what you need then say whee
+                    [7] => HQQE INJMZ FVM FADHM ANJ 
+UQI OYHH CMM OVAF UQI NMMJ FVMN CAU OVMM
+                )
+
+            [3] => Array
+                (
+                    [0] => door
+                    [1] => come&#0160;inside&#0160;or&#0160;go&#0160;outside&#0160;but&#0160;standing&#0160;here<br />UOYT&#0160;TRKIPT&#0160;ZV&#0160;YO&#0160;AJEWADQ&#0160;QFX&#0160;KTMCOMFG&#0160;TTCI<br /><br />is&#0160;no&#0160;palce&#0160;to&#0160;hide<br />AS&#0160;ZD&#0160;AEDCQ&#0160;IZ&#0160;LADQ
+                    [2] => Vigenere
+                    [3] => SAMPLE
+                    [4] => none
+                    [5] => true
+                    [6] => come inside or go outside but standing here is no palce to hide
+                    [7] => UOYT TRKIPT ZV YO AJEWADQ QFX KTMCOMFG TTCI
+AS ZD AEDCQ IZ LADQ
+                )
+
+        )
+
+)
+
+[24-Jun-2011 02:09:54] #### 20 ####
+[24-Jun-2011 02:09:54] SXOIL RM EILI XFT MG RM VGPL FIUO ZCPI. LIXT
+ZXLINPCCV OG CIXLF SEXO OG TG
+[24-Jun-2011 02:09:54] #### 20 ####
+[24-Jun-2011 02:09:54] HQQE INJMZ FVM FADHM ANJ 
+UQI OYHH CMM OVAF UQI NMMJ FVMN CAU OVMM
+[24-Jun-2011 02:09:54] #### 20 ####
+[24-Jun-2011 02:09:54] UOYT TRKIPT ZV YO AJEWADQ QFX KTMCOMFG TTCI
+AS ZD AEDCQ IZ LADQ
+[24-Jun-2011 02:09:56] ####  ####
+[24-Jun-2011 02:09:56] Array
+(
+    [action] => download
+    [fileName] => EKJraDmLiReCkjGmKmqT.html
+)
+
+[24-Jun-2011 19:44:43] ####  ####
+[24-Jun-2011 19:44:43] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => television
+                    [1] => this&#0160;is&#0160;something&#0160;you&#0160;can&#0160;watch&#0160;while&#0160;what\'s<br />GAHZ&#0160;HZ&#0160;ZXJFGAHQT&#0160;PXN&#0160;RDQ&#0160;BDGRA&#0160;BAHCF&#0160;BADG\'Z<br /><br />going&#0160;i&#0160;donna&#0160;know.<br />TXHQT&#0160;H&#0160;YXQQD&#0160;VQXB.
+                    [2] => Affine
+                    [3] => 7
+                    [4] => 3
+                    [5] => true
+                    [6] => This is something you can watch while what\'s going i donna know.
+                    [7] => GAHZ HZ ZXJFGAHQT PXN RDQ BDGRA BAHCF BADG\'Z
+TXHQT H YXQQD VQXB.
+                )
+
+            [1] => Array
+                (
+                    [0] => sink
+                    [1] => go&#0160;here&#0160;for&#0160;water&#0160;to&#0160;drink&#0160;you&#0160;will&#0160;find&#0160;it<br />VD&#0160;WTGT&#0160;UDG&#0160;LPITG&#0160;ID&#0160;SGXCZ&#0160;NDJ&#0160;LXAA&#0160;UXCS&#0160;XI<br /><br />if&#0160;you&#0160;think.<br />XU&#0160;NDJ&#0160;IWXCZ.
+                    [2] => Caesar
+                    [3] => 15
+                    [4] => none
+                    [5] => true
+                    [6] => go here for water to drink you will find it if you think.
+                    [7] => VD WTGT UDG LPITG ID SGXCZ NDJ LXAA UXCS XI
+XU NDJ IWXCZ.
+                )
+
+            [2] => Array
+                (
+                    [0] => rubber rat
+                    [1] => this&#0160;is&#0160;the&#0160;creature&#0160;of&#0160;the&#0160;night.&#0160;&#0160;watch<br />EUVD&#0160;VD&#0160;EUR&#0160;OCRMEFCR&#0160;PS&#0160;EUR&#0160;AVTUE.&#0160;&#0160;IMEOU<br /><br />out!&#0160;it&#0160;may&#0160;bite.<br />PFE!&#0160;VE&#0160;HMK&#0160;NVER.
+                    [2] => Keyword
+                    [3] => HAPPY
+                    [4] => M
+                    [5] => true
+                    [6] => This is the creature of the night.  Watch out! it may bite.
+                    [7] => EUVD VD EUR OCRMEFCR PS EUR AVTUE.  IMEOU
+PFE! VE HMK NVER.
+                )
+
+            [3] => Array
+                (
+                    [0] => coat rack
+                    [1] => the&#0160;piece&#0160;of&#0160;clothing&#0160;that&#0160;you&#0160;use&#0160;for<br />YVS&#0160;SNSQH&#0160;TT&#0160;QOTHVLSU&#0160;HKFH&#0160;MRZ&#0160;IGH&#0160;KCF<br /><br />warmth&#0160;abides&#0160;here&#0160;during&#0160;the&#0160;day.<br />ZFFAWM&#0160;OPLISG&#0160;KJFS&#0160;GZFWQL&#0160;HVH&#0160;IOM.
+                    [2] => Vigenere
+                    [3] => FOOD
+                    [4] => none
+                    [5] => true
+                    [6] => The piece of clothing that you use for warmth abides here during the day.
+                    [7] => YVS SNSQH TT QOTHVLSU HKFH MRZ IGH KCF
+ZFFAWM OPLISG KJFS GZFWQL HVH IOM.
+                )
+
+        )
+
+)
+
+[24-Jun-2011 19:44:43] #### 20 ####
+[24-Jun-2011 19:44:43] GAHZ HZ ZXJFGAHQT PXN RDQ BDGRA BAHCF BADG\'Z
+TXHQT H YXQQD VQXB.
+[24-Jun-2011 19:44:43] #### 20 ####
+[24-Jun-2011 19:44:43] VD WTGT UDG LPITG ID SGXCZ NDJ LXAA UXCS XI
+XU NDJ IWXCZ.
+[24-Jun-2011 19:44:43] #### 20 ####
+[24-Jun-2011 19:44:43] EUVD VD EUR OCRMEFCR PS EUR AVTUE.  IMEOU
+PFE! VE HMK NVER.
+[24-Jun-2011 19:44:43] #### 20 ####
+[24-Jun-2011 19:44:43] YVS SNSQH TT QOTHVLSU HKFH MRZ IGH KCF
+ZFFAWM OPLISG KJFS GZFWQL HVH IOM.
+[24-Jun-2011 19:44:50] ####  ####
+[24-Jun-2011 19:44:50] Array
+(
+    [action] => download
+    [fileName] => iBuCqLjBaideGRorHzbF.html
+)
+
+[10-Aug-2011 19:55:04] ####  ####
+[10-Aug-2011 19:55:04] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => under TV
+                    [1] => look&#0160;under&#0160;what&#0160;you&#0160;watch<br />SVVR&#0160;BUKLY&#0160;DOHA&#0160;FVB&#0160;DHAJO
+                    [2] => Caesar
+                    [3] => 7
+                    [4] => none
+                    [5] => true
+                    [6] => look under what you watch
+                    [7] => SVVR BUKLY DOHA FVB DHAJO
+                )
+
+            [1] => Array
+                (
+                    [0] => bathroom
+                    [1] => &#0160;w&#0160;&#0160;h&#0160;&#0160;e&#0160;&#0160;r&#0160;&#0160;e&#0160;&#0160;&#0160; t &#0160;h &#0160;i &#0160;n &#0160;g &#0160;s<br />06 17 14 01 14&#0160;&#0160;&#0160;03 17 18 23 16 02<br /><br />&#0160;c &#0160;o &#0160;m &#0160;e&#0160;&#0160;&#0160; o &#0160;u &#0160;t&#0160;&#0160;&#0160; o &#0160;k<br />12 24 22 14&#0160;&#0160;&#0160;24 04 03&#0160;&#0160;&#0160;24 20
+                    [2] => Additive
+                    [3] => 10
+                    [4] => none
+                    [5] => true
+                    [6] => where things come out ok
+                    [7] => 06 17 14 01 14   03 17 18 23 16 02
+12 24 22 14   24 04 03   24 20
+                )
+
+            [2] => Array
+                (
+                    [0] => blackboard
+                    [1] => sometimes&#0160;black,<br />IDBYJMBYI&#0160;VEUWL,<br /><br />sometimes&#0160;white,<br />IDBYJMBYI&#0160;OAMJY,<br /><br />this&#0160;is&#0160;a&#0160;board&#0160;on<br />JAMI&#0160;MI&#0160;U&#0160;VDUHX&#0160;DC<br /><br />which&#0160;to&#0160;write.<br />OAMWA&#0160;JD&#0160;OHMJY.
+                    [2] => Keyword
+                    [3] => SAMPLE
+                    [4] => G
+                    [5] => true
+                    [6] => Sometimes black,
+sometimes white,
+This is a board on
+which to write.
+                    [7] => IDBYJMBYI VEUWL,
+IDBYJMBYI OAMJY,
+JAMI MI U VDUHX DC
+OAMWA JD OHMJY.
+                )
+
+            [3] => Array
+                (
+                    [0] => somewher else
+                    [1] => &#0160;x<br />22
+                    [2] => Letter-&gt;Number
+                    [3] => 0
+                    [4] => none
+                    [5] => false
+                    [6] => x
+                    [7] => 22
+                )
+
+            [4] => Array
+                (
+                    [0] => xxxx
+                    [1] => y<br />M
+                    [2] => Multiplicative
+                    [3] => 7
+                    [4] => none
+                    [5] => true
+                    [6] => y
+                    [7] => M
+                )
+
+            [5] => Array
+                (
+                    [0] => oover there
+                    [1] => z<br />Z
+                    [2] => Multiplicative
+                    [3] => 1
+                    [4] => none
+                    [5] => false
+                    [6] => z
+                    [7] => Z
+                )
+
+        )
+
+)
+
+[10-Aug-2011 19:55:04] #### 20 ####
+[10-Aug-2011 19:55:04] SVVR BUKLY DOHA FVB DHAJO
+[10-Aug-2011 19:55:04] #### 20 ####
+[10-Aug-2011 19:55:04] IDBYJMBYI VEUWL,
+IDBYJMBYI OAMJY,
+JAMI MI U VDUHX DC
+OAMWA JD OHMJY.
+[10-Aug-2011 19:55:04] #### 20 ####
+[10-Aug-2011 19:55:04] M
+[10-Aug-2011 19:55:04] #### 20 ####
+[10-Aug-2011 19:55:04] Z
+[10-Aug-2011 19:55:09] ####  ####
+[10-Aug-2011 19:55:09] Array
+(
+    [action] => download
+    [fileName] => birtnUFXjhZNxlOpyuWJ.html
+)
+
+[10-Aug-2011 19:57:03] ####  ####
+[10-Aug-2011 19:57:03] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => under TV
+                    [1] => look&#0160;under&#0160;what&#0160;you&#0160;watch<br />SVVR&#0160;BUKLY&#0160;DOHA&#0160;FVB&#0160;DHAJO
+                    [2] => Caesar
+                    [3] => 7
+                    [4] => none
+                    [5] => true
+                    [6] => look under what you watch
+                    [7] => SVVR BUKLY DOHA FVB DHAJO
+                )
+
+            [1] => Array
+                (
+                    [0] => bathroom
+                    [1] => &#0160;w&#0160;&#0160;h&#0160;&#0160;e&#0160;&#0160;r&#0160;&#0160;e&#0160;&#0160;&#0160; t &#0160;h &#0160;i &#0160;n &#0160;g &#0160;s<br />06 17 14 01 14&#0160;&#0160;&#0160;03 17 18 23 16 02<br /><br />&#0160;c &#0160;o &#0160;m &#0160;e&#0160;&#0160;&#0160; o &#0160;u &#0160;t&#0160;&#0160;&#0160; o &#0160;k<br />12 24 22 14&#0160;&#0160;&#0160;24 04 03&#0160;&#0160;&#0160;24 20
+                    [2] => Additive
+                    [3] => 10
+                    [4] => none
+                    [5] => true
+                    [6] => where things come out ok
+                    [7] => 06 17 14 01 14   03 17 18 23 16 02
+12 24 22 14   24 04 03   24 20
+                )
+
+            [2] => Array
+                (
+                    [0] => blackboard
+                    [1] => sometimes&#0160;black,<br />IDBYJMBYI&#0160;VEUWL,<br /><br />sometimes&#0160;white,<br />IDBYJMBYI&#0160;OAMJY,<br /><br />this&#0160;is&#0160;a&#0160;board&#0160;on<br />JAMI&#0160;MI&#0160;U&#0160;VDUHX&#0160;DC<br /><br />which&#0160;to&#0160;write.<br />OAMWA&#0160;JD&#0160;OHMJY.
+                    [2] => Keyword
+                    [3] => SAMPLE
+                    [4] => G
+                    [5] => true
+                    [6] => Sometimes black,
+sometimes white,
+This is a board on
+which to write.
+                    [7] => IDBYJMBYI VEUWL,
+IDBYJMBYI OAMJY,
+JAMI MI U VDUHX DC
+OAMWA JD OHMJY.
+                )
+
+            [3] => Array
+                (
+                    [0] => somewher else
+                    [1] => &#0160;x<br />22
+                    [2] => Letter-&gt;Number
+                    [3] => 0
+                    [4] => none
+                    [5] => false
+                    [6] => x
+                    [7] => 22
+                )
+
+            [4] => Array
+                (
+                    [0] => xxxx
+                    [1] => y<br />M
+                    [2] => Multiplicative
+                    [3] => 7
+                    [4] => none
+                    [5] => true
+                    [6] => y
+                    [7] => M
+                )
+
+            [5] => Array
+                (
+                    [0] => oover there
+                    [1] => z<br />Z
+                    [2] => Multiplicative
+                    [3] => 1
+                    [4] => none
+                    [5] => false
+                    [6] => z
+                    [7] => Z
+                )
+
+        )
+
+)
+
+[10-Aug-2011 19:57:03] #### 20 ####
+[10-Aug-2011 19:57:03] SVVR BUKLY DOHA FVB DHAJO
+[10-Aug-2011 19:57:03] #### 20 ####
+[10-Aug-2011 19:57:03] IDBYJMBYI VEUWL,
+IDBYJMBYI OAMJY,
+JAMI MI U VDUHX DC
+OAMWA JD OHMJY.
+[10-Aug-2011 19:57:03] #### 20 ####
+[10-Aug-2011 19:57:03] M
+[10-Aug-2011 19:57:03] #### 20 ####
+[10-Aug-2011 19:57:03] Z
+[10-Aug-2011 19:57:05] ####  ####
+[10-Aug-2011 19:57:05] Array
+(
+    [action] => download
+    [fileName] => aoCdaDfbczVvsEvJbTlQ.html
+)
+
+[26-Sep-2011 22:27:29] ####  ####
+[26-Sep-2011 22:27:29] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => awef
+                    [1] => &#0160;b&#0160;&#0160;a&#0160;&#0160;c&#0160;&#0160;o&#0160;&#0160;n&#0160;&#0160;&#0160; i &#0160;p &#0160;s &#0160;u &#0160;m<br />03 02 04 16 15&#0160;&#0160;&#0160;10 17 20 22 14<br /><br />&#0160;d &#0160;o &#0160;l &#0160;o &#0160;r&#0160;&#0160;&#0160; s &#0160;i &#0160;t&#0160;&#0160;&#0160; a &#0160;m &#0160;e &#0160;t<br />05 16 13 16 19&#0160;&#0160;&#0160;20 10 21&#0160;&#0160;&#0160;02 14 06 21<br /><br />&#0160;g &#0160;r &#0160;o &#0160;u &#0160;n &#0160;d&#0160;&#0160;&#0160; r &#0160;o &#0160;u &#0160;n &#0160;d<br />08 19 16 22 15 05&#0160;&#0160;&#0160;19 16 22 15 05<br /><br />&#0160;m &#0160;e &#0160;a &#0160;t &#0160;b &#0160;a &#0160;l &#0160;l&#0160;&#0160;&#0160; p &#0160;o &#0160;r &#0160;k<br />14 06 02 21 03 02 13 13&#0160;&#0160;&#0160;17 16 19 12<br /><br />&#0160;b &#0160;e &#0160;l &#0160;l &#0160;y&#0160;&#0160;&#0160; j &#0160;o &#0160;w &#0160;l.<br />03 06 13 13 00&#0160;&#0160;&#0160;11 16 24 13.<br /><br />&#0160;f &#0160;a &#0160;t &#0160;b &#0160;a &#0160;c &#0160;k<br />07 02 21 03 02 04 12<br /><br />&#0160;m &#0160;e &#0160;a &#0160;t &#0160;l &#0160;o &#0160;a &#0160;f&#0160;&#0160;&#0160; j &#0160;o &#0160;w &#0160;l,<br />14 06 02 21 13 16 02 07&#0160;&#0160;&#0160;11 16 24 13,<br /><br />&#0160;b &#0160;i &#0160;l &#0160;t &#0160;o &#0160;n &#0160;g&#0160;&#0160;&#0160; s &#0160;h &#0160;o &#0160;r &#0160;t<br />03 10 13 21 16 15 08&#0160;&#0160;&#0160;20 09 16 19 21<br /><br />&#0160;r &#0160;i &#0160;b &#0160;s&#0160;&#0160;&#0160; f &#0160;i &#0160;l &#0160;e &#0160;t<br />19 10 03 20&#0160;&#0160;&#0160;07 10 13 06 21<br /><br />&#0160;m &#0160;i &#0160;g &#0160;n &#0160;o &#0160;n&#0160;&#0160;&#0160; p &#0160;a &#0160;s &#0160;t &#0160;r &#0160;a &#0160;m &#0160;i<br />14 10 08 15 16 15&#0160;&#0160;&#0160;17 02 20 21 19 02 14 10<br /><br />&#0160;b &#0160;e &#0160;e &#0160;f&#0160;&#0160;&#0160; j &#0160;e &#0160;r &#0160;k &#0160;y<br />03 06 06 07&#0160;&#0160;&#0160;11 06 19 12 00<br /><br />&#0160;p &#0160;r &#0160;o &#0160;s &#0160;c &#0160;i &#0160;u &#0160;t &#0160;t &#0160;o<br />17 19 16 20 04 10 22 21 21 16<br /><br />&#0160;s &#0160;a &#0160;u &#0160;s &#0160;a &#0160;g &#0160;e.<br />20 02 22 20 02 08 06.<br /><br />&#0160;t &#0160;u &#0160;r &#0160;d &#0160;u &#0160;c &#0160;k &#0160;e &#0160;n<br />21 22 19 05 22 04 12 06 15<br /><br />&#0160;g &#0160;r &#0160;o &#0160;u &#0160;n &#0160;d&#0160;&#0160;&#0160; r &#0160;o &#0160;u &#0160;n &#0160;d<br />08 19 16 22 15 05&#0160;&#0160;&#0160;19 16 22 15 05<br /><br />&#0160;c &#0160;o &#0160;r &#0160;n &#0160;e &#0160;d&#0160;&#0160;&#0160; b &#0160;e &#0160;e &#0160;f<br />04 16 19 15 06 05&#0160;&#0160;&#0160;03 06 06 07<br /><br />&#0160;m &#0160;e &#0160;a &#0160;t &#0160;b &#0160;a &#0160;l &#0160;l,<br />14 06 02 21 03 02 13 13,<br /><br />&#0160;b &#0160;i &#0160;l &#0160;t &#0160;o &#0160;n &#0160;g&#0160;&#0160;&#0160; t &#0160;r &#0160;i- &#0160;t &#0160;i &#0160;p<br />03 10 13 21 16 15 08&#0160;&#0160;&#0160;21 19 10- 21 10 17<br /><br />&#0160;b &#0160;a &#0160;c &#0160;o &#0160;n&#0160;&#0160;&#0160; s &#0160;h &#0160;o &#0160;u &#0160;l &#0160;d &#0160;e &#0160;r<br />03 02 04 16 15&#0160;&#0160;&#0160;20 09 16 22 13 05 06 19<br /><br />&#0160;p &#0160;i &#0160;g&#0160;&#0160;&#0160; s &#0160;h &#0160;a &#0160;n &#0160;k&#0160;&#0160;&#0160; b &#0160;e &#0160;e &#0160;f.<br />17 10 08&#0160;&#0160;&#0160;20 09 02 15 12&#0160;&#0160;&#0160;03 06 06 07.<br /><br />&#0160;p &#0160;o &#0160;r &#0160;k&#0160;&#0160;&#0160; b &#0160;e &#0160;l &#0160;l &#0160;y<br />17 16 19 12&#0160;&#0160;&#0160;03 06 13 13 00<br /><br />&#0160;b &#0160;r &#0160;e &#0160;s &#0160;a &#0160;o &#0160;l &#0160;a&#0160;&#0160;&#0160; t &#0160;u &#0160;r &#0160;k &#0160;e &#0160;y<br />03 19 06 20 02 16 13 02&#0160;&#0160;&#0160;21 22 19 12 06 00<br /><br />&#0160;s &#0160;a &#0160;u &#0160;s &#0160;a &#0160;g &#0160;e,&#0160;&#0160;&#0160; h &#0160;a &#0160;m<br />20 02 22 20 02 08 06,&#0160;&#0160;&#0160;09 02 14<br /><br />&#0160;h &#0160;o &#0160;c &#0160;k&#0160;&#0160;&#0160; s &#0160;t &#0160;r &#0160;i &#0160;p<br />09 16 04 12&#0160;&#0160;&#0160;20 21 19 10 17<br /><br />&#0160;s &#0160;t &#0160;e &#0160;a &#0160;k&#0160;&#0160;&#0160; s &#0160;h &#0160;o &#0160;u &#0160;l &#0160;d &#0160;e &#0160;r<br />20 21 06 02 12&#0160;&#0160;&#0160;20 09 16 22 13 05 06 19<br /><br />&#0160;j &#0160;e &#0160;r &#0160;k &#0160;y<br />11 06 19 12 00<br /><br />&#0160;f &#0160;r &#0160;a &#0160;n &#0160;k &#0160;f &#0160;u &#0160;r &#0160;t &#0160;e &#0160;r.<br />07 19 02 15 12 07 22 19 21 06 19.<br /><br />&#0160;p &#0160;o &#0160;r &#0160;k&#0160;&#0160;&#0160; b &#0160;e &#0160;l &#0160;l &#0160;y<br />17 16 19 12&#0160;&#0160;&#0160;03 06 13 13 00<br /><br />&#0160;s &#0160;a &#0160;u &#0160;s &#0160;a &#0160;g &#0160;e<br />20 02 22 20 02 08 06<br /><br />&#0160;f &#0160;r &#0160;a &#0160;n &#0160;k &#0160;f &#0160;u &#0160;r &#0160;t &#0160;e &#0160;r<br />07 19 02 15 12 07 22 19 21 06 19<br /><br />&#0160;t &#0160;r &#0160;i- &#0160;t &#0160;i &#0160;p&#0160;&#0160;&#0160; s &#0160;h &#0160;a &#0160;n &#0160;k.<br />21 19 10- 21 10 17&#0160;&#0160;&#0160;20 09 02 15 12.<br /><br />&#0160;t- &#0160;b &#0160;o &#0160;n &#0160;e&#0160;&#0160;&#0160; p &#0160;a &#0160;n &#0160;c &#0160;e &#0160;t &#0160;t &#0160;a<br />21- 03 16 15 06&#0160;&#0160;&#0160;17 02 15 04 06 21 21 02<br /><br />&#0160;m &#0160;e &#0160;a &#0160;t &#0160;l &#0160;o &#0160;a &#0160;f&#0160;&#0160;&#0160; t &#0160;u &#0160;r &#0160;k &#0160;e &#0160;y.<br />14 06 02 21 13 16 02 07&#0160;&#0160;&#0160;21 22 19 12 06 00.<br /><br />&#0160;t &#0160;u &#0160;r &#0160;k &#0160;e &#0160;y&#0160;&#0160;&#0160; s &#0160;a &#0160;u &#0160;s &#0160;a &#0160;g &#0160;e<br />21 22 19 12 06 00&#0160;&#0160;&#0160;20 02 22 20 02 08 06<br /><br />&#0160;p &#0160;o &#0160;r &#0160;k,&#0160;&#0160;&#0160; s &#0160;h &#0160;o &#0160;u &#0160;l &#0160;d &#0160;e &#0160;r<br />17 16 19 12,&#0160;&#0160;&#0160;20 09 16 22 13 05 06 19<br /><br />&#0160;f &#0160;a &#0160;t &#0160;b &#0160;a &#0160;c &#0160;k<br />07 02 21 03 02 04 12<br /><br />&#0160;k &#0160;i &#0160;e &#0160;l &#0160;b &#0160;a &#0160;s &#0160;a&#0160;&#0160;&#0160; b &#0160;o &#0160;u &#0160;d &#0160;i &#0160;n<br />12 10 06 13 03 02 20 02&#0160;&#0160;&#0160;03 16 22 05 10 15<br /><br />&#0160;b &#0160;a &#0160;l &#0160;l&#0160;&#0160;&#0160; t &#0160;i &#0160;p<br />03 02 13 13&#0160;&#0160;&#0160;21 10 17<br /><br />&#0160;h &#0160;a &#0160;m &#0160;b &#0160;u &#0160;r &#0160;g &#0160;e &#0160;r<br />09 02 14 03 22 19 08 06 19<br /><br />&#0160;d &#0160;r &#0160;u &#0160;m &#0160;s &#0160;t &#0160;i &#0160;c &#0160;k<br />05 19 22 14 20 21 10 04 12<br /><br />&#0160;s &#0160;i &#0160;r &#0160;l &#0160;o &#0160;i &#0160;n&#0160;&#0160;&#0160; b &#0160;e &#0160;e &#0160;f<br />20 10 19 13 16 10 15&#0160;&#0160;&#0160;03 06 06 07<br /><br />&#0160;p &#0160;o &#0160;r &#0160;k&#0160;&#0160;&#0160; l &#0160;o &#0160;i &#0160;n&#0160;&#0160;&#0160; s &#0160;p &#0160;a &#0160;r &#0160;e<br />17 16 19 12&#0160;&#0160;&#0160;13 16 10 15&#0160;&#0160;&#0160;20 17 02 19 06<br /><br />&#0160;r &#0160;i &#0160;b &#0160;s.<br />19 10 03 20.
+                    [2] => Additive
+                    [3] => 2
+                    [4] => none
+                    [5] => true
+                    [6] => Bacon ipsum dolor sit amet ground round meatball pork belly jowl. Fatback meatloaf jowl, biltong short ribs filet mignon pastrami beef jerky prosciutto sausage. Turducken ground round corned beef meatball, biltong tri-tip bacon shoulder pig shank beef. Pork belly bresaola turkey sausage, ham hock strip steak shoulder jerky frankfurter. Pork belly sausage frankfurter tri-tip shank. T-bone pancetta meatloaf turkey. Turkey sausage pork, shoulder fatback kielbasa boudin ball tip hamburger drumstick sirloin beef pork loin spare ribs.
+                    [7] => 03 02 04 16 15   10 17 20 22 14
+05 16 13 16 19   20 10 21   02 14 06 21
+08 19 16 22 15 05   19 16 22 15 05
+14 06 02 21 03 02 13 13   17 16 19 12
+03 06 13 13 00   11 16 24 13.
+07 02 21 03 02 04 12
+14 06 02 21 13 16 02 07   11 16 24 13,
+03 10 13 21 16 15 08   20 09 16 19 21
+19 10 03 20   07 10 13 06 21
+14 10 08 15 16 15   17 02 20 21 19 02 14 10
+03 06 06 07   11 06 19 12 00
+17 19 16 20 04 10 22 21 21 16
+20 02 22 20 02 08 06.
+21 22 19 05 22 04 12 06 15
+08 19 16 22 15 05   19 16 22 15 05
+04 16 19 15 06 05   03 06 06 07
+14 06 02 21 03 02 13 13,
+03 10 13 21 16 15 08   21 19 10- 21 10 17
+03 02 04 16 15   20 09 16 22 13 05 06 19
+17 10 08   20 09 02 15 12   03 06 06 07.
+17 16 19 12   03 06 13 13 00
+03 19 06 20 02 16 13 02   21 22 19 12 06 00
+20 02 22 20 02 08 06,   09 02 14
+09 16 04 12   20 21 19 10 17
+20 21 06 02 12   20 09 16 22 13 05 06 19
+11 06 19 12 00
+07 19 02 15 12 07 22 19 21 06 19.
+17 16 19 12   03 06 13 13 00
+20 02 22 20 02 08 06
+07 19 02 15 12 07 22 19 21 06 19
+21 19 10- 21 10 17   20 09 02 15 12.
+21- 03 16 15 06   17 02 15 04 06 21 21 02
+14 06 02 21 13 16 02 07   21 22 19 12 06 00.
+21 22 19 12 06 00   20 02 22 20 02 08 06
+17 16 19 12,   20 09 16 22 13 05 06 19
+07 02 21 03 02 04 12
+12 10 06 13 03 02 20 02   03 16 22 05 10 15
+03 02 13 13   21 10 17
+09 02 14 03 22 19 08 06 19
+05 19 22 14 20 21 10 04 12
+20 10 19 13 16 10 15   03 06 06 07
+17 16 19 12   13 16 10 15   20 17 02 19 06
+19 10 03 20.
+                )
+
+        )
+
+)
+
+[26-Sep-2011 22:27:31] ####  ####
+[26-Sep-2011 22:27:31] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:27:34] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 40 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/value.font.class.php on line 14
+[26-Sep-2011 22:28:48] ####  ####
+[26-Sep-2011 22:28:48] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:28:50] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 40 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/value.font.class.php on line 14
+[26-Sep-2011 22:29:10] ####  ####
+[26-Sep-2011 22:29:10] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:29:12] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:29:17] ####  ####
+[26-Sep-2011 22:29:17] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:29:19] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:29:48] ####  ####
+[26-Sep-2011 22:29:48] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:29:50] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:29:51] ####  ####
+[26-Sep-2011 22:29:51] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:29:53] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:29:55] ####  ####
+[26-Sep-2011 22:29:55] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:29:58] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:31:24] ####  ####
+[26-Sep-2011 22:31:24] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:31:26] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:31:59] ####  ####
+[26-Sep-2011 22:31:59] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:32:01] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[26-Sep-2011 22:32:10] ####  ####
+[26-Sep-2011 22:32:10] Array
+(
+    [action] => download
+    [fileName] => vjNMKSjcuyrxUufRHGUx.html
+)
+
+[26-Sep-2011 22:32:12] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 41 bytes) in /home/cryptocl/public_html/html2ps_v2043/public_html/css.state.class.php on line 139
+[29-Sep-2011 17:55:51] ####  ####
+[29-Sep-2011 17:55:51] Array
+(
+    [action] => process
+    [clues] => Array
+        (
+            [0] => Array
+                (
+                    [0] => clock
+                    [1] => &#0160;t&#0160;&#0160;h&#0160;&#0160;e&#0160;&#0160;&#0160; n &#0160;e &#0160;x &#0160;t&#0160;&#0160;&#0160; c &#0160;l &#0160;u &#0160;e<br />03 17 14&#0160;&#0160;&#0160;23 14 07 03&#0160;&#0160;&#0160;12 21 04 14<br /><br />&#0160;t &#0160;h &#0160;a &#0160;t<br />03 17 10 03<br /><br />&#0160;y &#0160;o &#0160;u&#0160;&#0160;&#0160; c &#0160;a &#0160;n&#0160;&#0160;&#0160; f &#0160;i &#0160;n &#0160;d<br /> 08 24 04&#0160;&#0160;&#0160;12 10 23&#0160;&#0160;&#0160;15 18 23 13<br /><br />&#0160;i &#0160;s&#0160;&#0160;&#0160; n &#0160;e &#0160;a &#0160;r&#0160;&#0160;&#0160; t &#0160;h &#0160;e<br /> 18 02&#0160;&#0160;&#0160;23 14 10 01&#0160;&#0160;&#0160;03 17 14<br /><br />&#0160;p &#0160;l &#0160;a &#0160;c &#0160;e<br />25 21 10 12 14<br /><br />&#0160;t &#0160;h &#0160;a &#0160;t&#0160;&#0160;&#0160; t &#0160;e &#0160;l &#0160;l &#0160;s&#0160;&#0160;&#0160; t &#0160;h &#0160;e<br /> 03 17 10 03&#0160;&#0160;&#0160;03 14 21 21 02&#0160;&#0160;&#0160;03 17 14<br /><br />&#0160;t &#0160;i &#0160;m &#0160;e.<br />03 18 22 14.
+                    [2] => Additive
+                    [3] => 10
+                    [4] => none
+                    [5] => false
+                    [6] => The next clue that
+you can find
+Is near the place
+that tells the time.
+                    [7] => 03 17 14   23 14 07 03   12 21 04 14
+03 17 10 03
+ 08 24 04   12 10 23   15 18 23 13
+ 18 02   23 14 10 01   03 17 14
+25 21 10 12 14
+ 03 17 10 03   03 14 21 21 02   03 17 14
+03 18 22 14.
+                )
+
+            [1] => Array
+                (
+                    [0] => globe
+                    [1] => find&#0160;a&#0160;map&#0160;that<br />UDSO&#0160;F&#0160;PFY&#0160;KAFK<br /><br />shows&#0160;it&#0160;all.<br />HAVTH&#0160;DK&#0160;FMM.<br /><br />it&#0160;shows&#0160;the&#0160;world<br />DK&#0160;HAVTH&#0160;KAR&#0160;TVEMO<br /><br />on&#0160;one&#0160;big&#0160;ball.<br />VS&#0160;VSR&#0160;IDX&#0160;IFMM.
+                    [2] => Affine
+                    [3] => 3
+                    [4] => 5
+                    [5] => true
+                    [6] => Find a map that
+shows it all.
+It shows the world
+on one big ball.
+                    [7] => UDSO F PFY KAFK
+HAVTH DK FMM.
+DK HAVTH KAR TVEMO
+VS VSR IDX IFMM.
+                )
+
+            [2] => Array
+                (
+                    [0] => blackboard
+                    [1] => sometimes&#0160;black,<br />FEPVGZPVF&#0160;RMQTA,<br /><br />sometimes&#0160;white,<br />FEPVGZPVF&#0160;JYZGV,<br /><br />this&#0160;is&#0160;a&#0160;board&#0160;on<br />GYZF&#0160;ZF&#0160;Q&#0160;REQDU&#0160;EL<br /><br />which&#0160;to&#0160;write.<br />JYZTY&#0160;GE&#0160;JDZGV.
+                    [2] => Keyword
+                    [3] => SAMPLE
+                    [4] => J
+                    [5] => true
+                    [6] => Sometimes black,
+sometimes white,
+This is a board on
+which to write.
+                    [7] => FEPVGZPVF RMQTA,
+FEPVGZPVF JYZGV,
+GYZF ZF Q REQDU EL
+JYZTY GE JDZGV.
+                )
+
+            [3] => Array
+                (
+                    [0] => waste basket
+                    [1] => as&#0160;you&#0160;clean&#0160;up&#0160;at<br />DG&#0160;ERI&#0160;IOSGQ&#0160;IV&#0160;DH<br /><br />the&#0160;end&#0160;of&#0160;the&#0160;day,<br />ZKS&#0160;KQR&#0160;UI&#0160;HNH&#0160;RGB,<br /><br />this&#0160;is&#0160;thrown&#0160;away.<br />HNLG&#0160;OV&#0160;HNUCCQ&#0160;OCDM.
+                    [2] => Vigenere
+                    [3] => DOG
+                    [4] => none
+                    [5] => true
+                    [6] => As you clean up at
+the end of the day,
+This is thrown away.
+                    [7] => DG ERI IOSGQ IV DH
+ZKS KQR UI HNH RGB,
+HNLG OV HNUCCQ OCDM.
+                )
+
+        )
+
+    [BX] => e4hnvfp2jalap&b=3&s=jc
+)
+
+[29-Sep-2011 17:55:51] #### 20 ####
+[29-Sep-2011 17:55:51] UDSO F PFY KAFK
+HAVTH DK FMM.
+DK HAVTH KAR TVEMO
+VS VSR IDX IFMM.
+[29-Sep-2011 17:55:51] #### 20 ####
+[29-Sep-2011 17:55:51] FEPVGZPVF RMQTA,
+FEPVGZPVF JYZGV,
+GYZF ZF Q REQDU EL
+JYZTY GE JDZGV.
+[29-Sep-2011 17:55:51] #### 20 ####
+[29-Sep-2011 17:55:51] DG ERI IOSGQ IV DH
+ZKS KQR UI HNH RGB,
+HNLG OV HNUCCQ OCDM.
+[29-Sep-2011 17:55:57] ####  ####
+[29-Sep-2011 17:55:57] Array
+(
+    [action] => download
+    [fileName] => vlbMtGUlwfeUAjyxVHfQ.html
+    [BX] => e4hnvfp2jalap&b=3&s=jc
+)
+
+[09-Dec-2011 19:00:56] ####  ####
+[09-Dec-2011 19:00:56] 4 = 4 - ( 4 % 1 );
+[09-Dec-2011 19:00:56] ####  ####
+[09-Dec-2011 19:00:56] 0 4 of 4 total4
+[09-Dec-2011 19:00:57] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[09-Dec-2011 19:01:57] ####  ####
+[09-Dec-2011 19:01:57] 4 = 4 - ( 4 % 1 );
+[09-Dec-2011 19:01:57] ####  ####
+[09-Dec-2011 19:01:57] 0 4 of 4 total4
+[09-Dec-2011 19:01:57] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[14-Dec-2011 16:54:48] PHP Warning:  readfile(../pdfs/Line: 149.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[14-Dec-2011 16:55:08] PHP Warning:  readfile(../pdfs/Line: 149.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[16-Dec-2011 03:24:36] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[16-Dec-2011 18:32:14] ####  ####
+[16-Dec-2011 18:32:14] 5 = 5 - ( 4 % 1 );
+[16-Dec-2011 18:32:14] ####  ####
+[16-Dec-2011 18:32:14] 0 4 of 5 total5
+[16-Dec-2011 18:32:15] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[20-Dec-2011 21:39:42] ####  ####
+[20-Dec-2011 21:39:42] 3 = 3 - ( 3 % 1 );
+[20-Dec-2011 21:39:42] ####  ####
+[20-Dec-2011 21:39:42] 0 3 of 3 total3
+[20-Dec-2011 21:39:43] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[20-Dec-2011 21:40:05] ####  ####
+[20-Dec-2011 21:40:05] 3 = 3 - ( 3 % 1 );
+[20-Dec-2011 21:40:05] ####  ####
+[20-Dec-2011 21:40:05] 0 3 of 3 total3
+[20-Dec-2011 21:40:06] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[21-Dec-2011 09:12:48] ####  ####
+[21-Dec-2011 09:12:48] 5 = 5 - ( 1 % 1 );
+[21-Dec-2011 09:12:48] ####  ####
+[21-Dec-2011 09:12:48] 0 1 of 5 total5
+[21-Dec-2011 09:12:52] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[06-Jan-2012 23:09:40] 3 = 3 - ( 1 % 1 );
+
+[06-Jan-2012 23:09:40] 0 1 of 3 total3
+
+[06-Jan-2012 23:09:41] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[06-Jan-2012 23:10:34] 5 = 5 - ( 1 % 1 );
+
+[06-Jan-2012 23:10:34] 0 1 of 5 total5
+
+[06-Jan-2012 23:10:35] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[23-Jan-2012 18:02:59] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[05-Feb-2012 12:33:11] 5 = 5 - ( 4 % 1 );
+
+[05-Feb-2012 12:33:11] 0 4 of 5 total5
+
+[05-Feb-2012 12:33:12] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[08-Feb-2012 21:34:27] 5 = 5 - ( 4 % 1 );
+
+[08-Feb-2012 21:34:27] 0 4 of 5 total5
+
+[08-Feb-2012 21:34:28] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[08-Feb-2012 21:59:13] 3 = 3 - ( 1 % 1 );
+
+[08-Feb-2012 21:59:13] 0 1 of 3 total3
+
+[08-Feb-2012 21:59:13] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[08-Feb-2012 22:00:04] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 466
+[08-Feb-2012 22:01:55] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:03:10] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:03:21] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:03:59] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:08:02] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:08:48] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:10:04] PHP Warning:  readfile(../pdfs/Unknown view/home/cryptocl/public_html/common/views/cover.php.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:10:33] PHP Fatal error:  Call to undefined function displayKeys() in /home/cryptocl/public_html/common/views/cover_cipher.php on line 2
+[08-Feb-2012 22:10:34] PHP Warning:  readfile(../pdfs/&lt;table&gt;    &lt;tr&gt;        &lt;td&gt;&lt;img src=\&quot;/images/logo_crypto.gif\&quot; alt=\&quot;Crypto Club Logo\&quot; /&gt;&lt;/td&gt;        &lt;td style=\&quot;font-size:18px;vertical-alignmnet:middle\&quot;&gt;Directions for Setting Up Your Treasure Hunt&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;&lt;ul&gt;    &lt;li&gt;Prepare clue envelopes by doing the following for each clue:        &lt;ul&gt;            &lt;li&gt;                Print one copy of the clue for each group.             &lt;/li&gt;            &lt;li&gt;                Cut each copy into parts along the dotted lines and staple the parts together to make a packet.            &lt;/li&gt;            &lt;li&gt;                Put identical clue packets into an envelope, one packet for each group.             &lt;/li&gt;            &lt;li&gt;                Write on the envelope the clue number and the location where the clue should be hidden.             &lt;/li&gt;        &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;   in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:11:05] PHP Fatal error:  Call to undefined function displayKeys() in /home/cryptocl/public_html/common/views/cover_cipher.php on line 2
+[08-Feb-2012 22:11:05] PHP Warning:  readfile(../pdfs/&lt;table&gt;    &lt;tr&gt;        &lt;td&gt;&lt;img src=\&quot;/images/logo_crypto.gif\&quot; alt=\&quot;Crypto Club Logo\&quot; /&gt;&lt;/td&gt;        &lt;td style=\&quot;font-size:18px;vertical-alignmnet:middle\&quot;&gt;Directions for Setting Up Your Treasure Hunt&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;&lt;ul&gt;    &lt;li&gt;Prepare clue envelopes by doing the following for each clue:        &lt;ul&gt;            &lt;li&gt;                Print one copy of the clue for each group.             &lt;/li&gt;            &lt;li&gt;                Cut each copy into parts along the dotted lines and staple the parts together to make a packet.            &lt;/li&gt;            &lt;li&gt;                Put identical clue packets into an envelope, one packet for each group.             &lt;/li&gt;            &lt;li&gt;                Write on the envelope the clue number and the location where the clue should be hidden.             &lt;/li&gt;        &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;   in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:11:17] PHP Fatal error:  Call to undefined function displayKeys() in /home/cryptocl/public_html/common/views/cover_cipher.php on line 2
+[08-Feb-2012 22:11:18] PHP Warning:  readfile(../pdfs/&lt;table&gt;    &lt;tr&gt;        &lt;td&gt;&lt;img src=\&quot;/images/logo_crypto.gif\&quot; alt=\&quot;Crypto Club Logo\&quot; /&gt;&lt;/td&gt;        &lt;td style=\&quot;font-size:18px;vertical-alignmnet:middle\&quot;&gt;Directions for Setting Up Your Treasure Hunt&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;&lt;ul&gt;    &lt;li&gt;Prepare clue envelopes by doing the following for each clue:        &lt;ul&gt;            &lt;li&gt;                Print one copy of the clue for each group.             &lt;/li&gt;            &lt;li&gt;                Cut each copy into parts along the dotted lines and staple the parts together to make a packet.            &lt;/li&gt;            &lt;li&gt;                Put identical clue packets into an envelope, one packet for each group.             &lt;/li&gt;            &lt;li&gt;                Write on the envelope the clue number and the location where the clue should be hidden.             &lt;/li&gt;        &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;   in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:14:13] PHP Fatal error:  Call to undefined function displayKeys() in /home/cryptocl/public_html/common/views/cover_cipher.php on line 2
+[08-Feb-2012 22:14:14] PHP Warning:  readfile(../pdfs/&lt;table&gt;    &lt;tr&gt;        &lt;td&gt;&lt;img src=\&quot;/images/logo_crypto.gif\&quot; alt=\&quot;Crypto Club Logo\&quot; /&gt;&lt;/td&gt;        &lt;td style=\&quot;font-size:18px;vertical-alignmnet:middle\&quot;&gt;Directions for Setting Up Your Treasure Hunt&lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;&lt;ul&gt;    &lt;li&gt;Prepare clue envelopes by doing the following for each clue:        &lt;ul&gt;            &lt;li&gt;                Print one copy of the clue for each group.             &lt;/li&gt;            &lt;li&gt;                Cut each copy into parts along the dotted lines and staple the parts together to make a packet.            &lt;/li&gt;            &lt;li&gt;                Put identical clue packets into an envelope, one packet for each group.             &lt;/li&gt;            &lt;li&gt;                Write on the envelope the clue number and the location where the clue should be hidden.             &lt;/li&gt;        &lt;/ul&gt;    &lt;/li&gt;        &lt;li&gt;   in /home/cryptocl/public_html/common/class.cryptopdf.php on line 453
+[08-Feb-2012 22:17:08] 1 - 1
+
+[08-Feb-2012 22:17:08] 2 - 1
+
+[08-Feb-2012 23:00:21] 4 - 1
+
+[09-Feb-2012 19:54:40] 4 - 1
+
+[09-Feb-2012 19:54:40] 4 - 1
+
+[09-Feb-2012 20:04:32] 4 - 1
+
+[20-Mar-2012 22:13:49] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[20-Mar-2012 22:14:19] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:00:48] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:06:56] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:07:14] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:07:18] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:13:19] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:15:51] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[28-Mar-2012 12:16:47] PHP Warning:  readfile(../pdfs/Line: 151.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/public_html/common/class.cryptopdf.php on line 467
+[24-Apr-2012 18:25:45] PHP Warning:  require_once(HTML/QuickForm2.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/header.php on line 19
+[24-Apr-2012 18:25:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'HTML/QuickForm2.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/cryptocl/svn_files/Zend/library:/home/cryptocl/svn_files/Zend/library/pear:/home/cryptocl/svn_files/Zend/library/hybridauth') in /home/cryptocl/svn_files/public_html/common/header.php on line 19
+[24-Apr-2012 18:25:46] PHP Warning:  require_once(HTML/QuickForm2.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/header.php on line 19
+[24-Apr-2012 18:25:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'HTML/QuickForm2.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/cryptocl/svn_files/Zend/library:/home/cryptocl/svn_files/Zend/library/pear:/home/cryptocl/svn_files/Zend/library/hybridauth') in /home/cryptocl/svn_files/public_html/common/header.php on line 19
+[24-Apr-2012 18:41:31] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[25-Apr-2012 14:20:18] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[25-Apr-2012 14:20:27] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[13-May-2012 14:10:27] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[27-Jun-2012 03:35:19] PHP Fatal error:  Call to undefined function load_view() in /home/cryptocl/svn_files/public_html/teachers/index.php on line 26
+[27-Jun-2012 03:35:33] PHP Fatal error:  Call to undefined function load_view() in /home/cryptocl/svn_files/public_html/teachers/index.php on line 26
+[27-Jun-2012 03:35:36] PHP Fatal error:  Call to undefined function load_view() in /home/cryptocl/svn_files/public_html/teachers/index.php on line 26
+[27-Jun-2012 03:35:41] PHP Fatal error:  Call to undefined function load_view() in /home/cryptocl/svn_files/public_html/teachers/index.php on line 26
+[27-Jun-2012 17:14:43] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[27-Jun-2012 17:15:26] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:48:45] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:49:24] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:49:47] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:50:17] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:50:57] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:51:14] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:51:29] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[29-Jun-2012 16:54:09] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[16-Jul-2012 02:57:52] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[16-Jul-2012 03:03:50] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[16-Aug-2012 11:19:17] PHP Warning:  readfile(../pdfs/.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[24-Aug-2012 18:53:57] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[24-Aug-2012 18:54:54] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[08-Nov-2012 16:37:15] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[12-Nov-2012 16:39:43] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472
+[12-Nov-2012 16:44:07] PHP Warning:  readfile(../pdfs/Line: 156.pdf) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in /home/cryptocl/svn_files/public_html/common/class.cryptopdf.php on line 472

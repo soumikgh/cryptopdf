@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <age>
+        <options value="none" label="Select age" />
+        <options value="1-8" label="Under 8" />
+        <options value="9-12" label="9-12" />
+        <options value="13-19" label="13-19" />
+        <options value="20-29" label="20-29" />
+        <options value="30-39" label="30-39" />
+        <options value="40-49" label="40-49" />
+        <options value="50-59" label="50-59" />
+        <options value="60+" label="60+" />
+    </age>
+    <codenames>
+        <codename>
+            <name>Leonard Adleman</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Al-Kindi</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Ross Anderson</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Charles Babbage</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Leone Battista Alberti</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Étienne Bazeries</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>George Blakley</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Julius Caesar</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Rosario Candela</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Joan Daemen</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Whitfield Diffie</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Elizebeth Friedman</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        
+        <codename>
+            <name>Leonard Adleman</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Al-Kindi</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Ross Anderson</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Charles Babbage</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Leone Battista Alberti</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Étienne Bazeries</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>George Blakley</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Julius Caesar</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Rosario Candela</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Joan Daemen</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Whitfield Diffie</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        <codename>
+            <name>Elizebeth Friedman</name>
+            <image>/images/temp.gif</image>
+            <biography>1 Ut blandit erat ad ex dolor commodo sus cipit nostrud lorem</biography>
+        </codename>
+        
+    </codenames>
+</root>

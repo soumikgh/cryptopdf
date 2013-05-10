@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Crypto Club: For Teachers: Treasure Hunt Clue Generator</title>
+<meta name="title" content="Crypto Club: For Teachers: Treasure Hunt Clue Generator" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="NEED KEYWORDS" />
+<meta name="description" content="NEED DESCRIPTION" />
+<style type="text/css" media="screen">
+<!--
+@import "../thickbox.css";
+@import "../styles.css";
+body {padding:0px; margin:0px; background:transparent url(../images/bg_gradient.jpg); background-repeat:repeat-y; background-position:center; background-color:#134cbf;}
+-->
+</style>
+<script language="javascript" type="text/javascript" src="../jquery-1.6.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="../thickbox.js"></script>
+<script language="javascript" type="text/javascript" src="../scripts.js"></script>
+</head>
+<body bgcolor="#3ba7de" text="#999999" link="#daab4c" alink="#daab4c" vlink="#cccc99" onload="preloadIntImages();">
+<div style="padding:10px 20px 0px 20px;" align="center">
+	<div><img src="../images/text_alert.gif" width="51" height="16" alt="Alert" /></div>
+	<div class="arial14pxBlackB"><br />Are you sure you want to keep the key secret for your Vigen&egrave;re Message? It is very hard to crack a short Vig&egrave;nere message.</div>
+	<div><br /><a href="#" onclick="parent.setVig(1); parent.tb_remove(); return false;"
+			onmouseover="changeImages('btn_yes', '../images/btn_yes_over.gif'); return true;"
+			onmouseout="changeImages('btn_yes', '../images/btn_yes.gif'); return true;">
+			<img id="btn_yes" name="btn_yes" src="../images/btn_yes.gif" width="66" height="19" alt="Yes" border="0" hspace="4" /></a>
+		
+		<a href="#" onclick="parent.setVig(2); parent.tb_remove(); return false;"
+			onmouseover="changeImages('btn_no', '../images/btn_no_over.gif'); return true;"
+			onmouseout="changeImages('btn_no', '../images/btn_no.gif'); return true;">
+			<img id="btn_no" name="btn_no" src="../images/btn_no.gif" width="66" height="19" alt="No" border="0" hspace="4" /></a></div>
+</div>
+</body>
+</html>

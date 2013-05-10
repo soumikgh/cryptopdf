@@ -1,0 +1,485 @@
+<?php
+/**
+ * @property User_model $user_model
+ * @property Login_model $login_model
+ */
+class Users {
+
+    public $db;
+    private $userId;
+    private $username;
+    private $email;
+
+    const VERIFICATION_SALT = 'vigenere';
+
+    function __construct( $db, $userId = null )
+    {
+        $this->db = $db;
+        $this->user_model = new User_model( $this->db );
+        $this->login_model = new Login_model( $this->db );
+
+        if ( is_numeric( $userId ) ) {
+            $this->userId = $userId;
+            $userData = $this->user_model->getUser( $userId );
+            $this->username = $userData['username'];
+            $this->email = $userData['email'];
+        }
+        else {
+            $this->usrname = '';
+        }
+    }
+
+    public function userLoginForm()
+    {
+        $form = new HTML_QuickForm2( 'login', 'post', null, true );
+        $form->addRule( 'callback', 'Username or password invalid', array( &$this, 'authenticate' ) );
+        
+        $username = $form->addElement( 'text', 'username', array('class' => 'input_180px') );
+        $username->addRule( 'nonempty', 'Plese type in your username' );
+        
+        $username->setId( 'return_user' );
+        
+        $password = $form->addElement( 'password', 'login_password', array('class' => 'input_180px') );
+        $password->setId( 'login_password' );
+        
+        $submit = $form->addElement( 'image', 'submitForm', array( 'value' => 'Login', 'id' => 'btn_login', 'src' => '/images/btn_login.gif' ) )->setLabel( '&nbsp;' );
+        $submit->setId( 'btn_login');
+        
+        if ( $form->isSubmitted() && $form->validate() ) {
+            $this->login_model->log( getUserId(), $this->login_model->regen_session_id() );
+
+            header( "location: profile.php" );
+            exit;
+        }
+        else if( $form->isSubmitted() ) {
+            $username->setError( 'Username or password is invalid' );
+        }
+
+        $renderer = HTML_QuickForm2_Renderer::factory( 'default' )
+            ->setTemplateForId( 'btn_login', '{element} <!-- <a href="?action=reset">Forgot password</a>-->' );
+        
+        $renderer->setTemplateForId( 'return_user', load_view( 'forms/login_element' ) );
+        $renderer->setTemplateForId( 'login_password', load_view( 'forms/login_element' ) );
+        $renderer->setTemplateForId( 'btn_login', load_view( 'forms/login_submit' ) );
+       
+        $html = $form->render( $renderer );
+        //$html .= $renderer->getJavascriptBuilder()->getLibraries(true, true);
+        
+        return $html;
+    }
+
+    public function userForgotPasswordForm()
+    {
+        $form = new HTML_QuickForm2( 'forgotPassword' );
+
+        $email = $form->addElement( 'text', 'email' )->setLabel( 'Email' );
+        $email->addRule( 'nonempty', 'Please enter an email' );
+        $email->addRule( 'callback', 'Invalid email', 'check_email' );
+        
+        $form->addElement( 'hidden', 'action' )->setValue( 'reset' );
+        $form->addElement( 'submit', 'submitForm', array( 'value' => 'Reset Password') )->setLabel( '&nbsp;' );
+
+        if ( $form->validate() ) {
+            $this->resetPassword( $_POST['email'] );
+
+            setMsg( 'Password reset, please check your email', 'success' );
+        }
+        
+        $renderer = HTML_QuickForm2_Renderer::factory( 'default' );
+        $defaultTemplate = load_view( 'forms/register_default' );
+        $renderer->setTemplateForClass( 'HTML_QuickForm2_Element_Input', $defaultTemplate );
+        
+        return $form->render( $renderer );
+    }
+
+    public function userRegistrationForm()
+    {
+        $codenames = new Codenames();
+        
+        $midPoint = round( count( $codenames->codenamesArray ) / 2 ) ;
+        
+        $data['codenames'][1] = array_slice( $codenames->codenamesArray, 0, $midPoint ); 
+        $data['codenames'][2] = array_slice( $codenames->codenamesArray, $midPoint ); 
+        
+        $form = new HTML_QuickForm2( 'registration', 'post', null, true );
+
+        //$form = $form->addElement( 'fieldset' )->setLabel( 'User Registration' );
+
+        $username = $form->addElement( 'text', 'username', array( 'class' => 'input_180px', 'onfocus' => 'setField(this,2); return false;' ) )->setLabel( 'Username' );
+        $username->setId( 'username' );
+        $username->addRule( 'required', 'Username is required' );
+        $username->addRule( 'regex', 'Username should contain only letters', '/^[a-zA-Z0-9]+$/' );
+        $username->addRule( 'callback', 'Username already taken', array( &$this, 'validateUsername' ) );
+
+        $email = $form->addElement( 'text', 'email', array( 'class' => 'input_180px', 'onfocus' => 'setField(this,3); return false;' ) )->setLabel( 'Email' );
+        $email->setId( 'email' );
+        $email->addRule( 'empty' )
+            ->or_( $email->createRule( 'callback', 'Invalid Email', 'check_email' ) )
+            ->and_( $email->createRule( 'callback', 'Email already in use', array( &$this, 'validateEmail' ) ) );
+
+        $password1 = $form->addElement( 'text', 'password', array( 'id' => 'password', 'class' => 'input_180px', 'onfocus' => 'setField(this,4); return false;' ) )->setLabel( 'Password' );
+        $password1->setId( 'password' );
+
+        $password1->addRule( 'required', 'Password is required' );
+        $password1->addRule( 'minlength', 'The password is too short', 6 );
+
+        $options = getRegistrationValues( 'age' );
+        
+        $age = $form->addElement( 'select', 'age', null, array( 'options' => $options, 'label' => 'Single select:' ) )->setLabel( 'Your Age' );
+        $age->setId( 'age' );
+        $age->addRule( 'callback', 'Please select your age', array( &$this, 'checkAge' ) );
+            
+        $boxGroup = $form->addElement( 'group' );
+
+        $boxGroup->setId( 'gender' );
+        $boxGroup->setLabel( 'Gender:' );
+        $boxGroup->addElement( 'radio', 'gender', array( 'value' => 'male' ) )->setContent( 'Male' );
+        $boxGroup->addElement( 'radio', 'gender', array( 'value' => 'female' ) )->setContent( 'Female' );
+        $boxGroup->addRule('required', 'Check gender', 1,
+                   HTML_QuickForm2_Rule::ONBLUR_CLIENT_SERVER);
+        $optin = $form->addElement( 'static', 'optinHtml' )->setContent( 'Newsletter check-in' );
+        $optin->setId( 'optin' );
+
+        $optinHidden = $form->addElement( 'hidden', 'optin' );
+        $parentEmail = $form->addElement( 'text', 'parentEmail' )->setLabel( 'Parent Email' );
+        $parentEmail->setId( 'parentEmail' );
+        
+        $optinHidden->addRule( 'empty' )
+            ->or_( $age->createRule( 'callback', '', array( &$this, 'greaterThan12' ) ) )
+            ->or_( $parentEmail->createRule( 'nonempty', 'Please enter a parents email' ) )->and_( $parentEmail->createRule( 'callback', 'Invalid email', 'check_email'));
+
+        $codeName = $form->addElement( 'static', 'codenameHtml' )->setContent( '' );
+        $codeName->setId( 'codenameHtml' );
+
+        $codeNameHidden = $form->addElement( 'hidden', 'codename' );
+        $codeNameHidden->setId( 'codename');
+
+        $submit = $form->addElement( 'image', 'submitForm', array( 'src' => '/images/btn_submit.gif' ) )->setLabel( '&nbsp;' );
+        $submit->setLabel( '&nbsp;' );
+        $submit->setId( 'submitForm' );
+
+        if ( $form->isSubmitted() && $form->validate() ) {
+            $this->save( $_POST );
+            $this->login_model->log( getUserId() );
+            header( "location: profile.php" );
+            exit;
+        }
+
+        $renderer = HTML_QuickForm2_Renderer::factory( 'default' );
+
+
+        $defaultTemplate = load_view( 'forms/register_default' );
+
+        $defaultGroupTemplate = load_view( 'forms/register_default_group' );
+
+        $spareGroupElement = load_view( 'forms/spare_element' );
+
+        $renderer->setTemplateForClass( 'HTML_QuickForm2_Element_Input', $defaultTemplate );
+
+        $renderer->setTemplateForClass( 'HTML_QuickForm2_Element_Select', $defaultTemplate );
+
+        $renderer->setTemplateForId( 'gender', $defaultGroupTemplate );
+        $renderer->setTemplateForId( 'email', load_view( 'forms/register_email') );
+
+        $renderer->setTemplateForId( 'codenameHtml', load_view( 'choose_codename', $data ) );
+
+        $renderer->setTemplateForId( 'optin', load_view( 'forms/register_optin' ) );
+        $renderer->setTemplateForId( 'parentEmail', load_view( 'forms/register_parent_email' ) );
+
+        $renderer->setElementTemplateForGroupId( 'gender', 'HTML_QuickForm2_Element_InputRadio', $spareGroupElement );
+
+        return $form->render( $renderer );
+    }
+/*
+    public function userProfileForm( $userId )
+    {
+        $form = new HTML_QuickForm2( 'profile' );
+
+        $fieldset = $form->addElement( 'fieldset' )->setLabel( 'Profile Settings' );
+
+        if ( is_numeric( $userId ) ) {
+            $form->addElement( 'hidden', 'userId', array( 'value' => $userId ) );
+
+            $userData = $this->user_model->getUser( $userId );
+
+            $optData = $this->user_model->getSubscriberData( $userId );
+
+            $userData['optin'] = is_numeric( $optData['id'] ) ? '1' : '0';
+            $userData['parentEmail'] = $userData['parent_email'];
+
+            $form->addDataSource( new HTML_QuickForm2_DataSource_Array( $userData ) );
+        }
+
+        $username = $fieldset->addElement( 'text', 'username' )->setLabel( 'Username' );
+        $username->addRule( 'empty' )
+            ->and_( $username->addRule( 'regex', 'Username should contain only letters or numbers', '/^[a-zA-Z0-9]+$/' ) )
+            ->and_( $username->addRule( 'callback', 'Username already taken', array( &$this, 'validateUsername' ) ) );
+
+
+        $password1 = $fieldset->addElement( 'password', 'password1' )->setLabel( 'Change Password' );
+        $password2 = $fieldset->addElement( 'password', 'password2' )->setLabel( 'Confirm Password' );
+
+        $password1->addRule( 'empty' )
+            ->and_( $password2->createRule( 'empty' ) )
+            ->or_( $password1->createRule( 'minlength', 'The password is too short', 6 ) )
+            ->and_( $password2->createRule( 'eq', 'The passwords do not match', $password1 ) );
+
+
+        $optin = $fieldset->addElement( 'checkbox', 'optin', array( 'value' => '1' ) )->setLabel( 'Newsletter check-in' );
+
+        $parentEmail = $fieldset->addElement( 'text', 'parentEmail' )->setLabel( 'Parent Email' );
+
+        $optin->addRule( 'empty' )->or_( $parentEmail->createRule( 'nonempty', 'Please enter a parents email' ) );
+
+        $options = $this->getRegistrationValues( 'codenames' );
+        $codename = $fieldset->addElement( 'select', 'codename', array( 'id' => 'codename' ), array( 'options' => $options ) )->setLabel( 'Codenames' );
+
+        $fieldset->addElement( 'submit', 'submitForm', array( 'value' => 'Change settings' ) )->setLabel( '&nbsp;' );
+
+        if ( $form->validate() ) {
+            $this->updateUser( $_POST );
+        }
+
+        $renderer = HTML_QuickForm2_Renderer::factory( 'default' )
+            ->setTemplateForId( 'codename', '<div class="element">{label}<br />{element} <a href="#" id="more_info">More Info</a></div>' );
+
+        return $form->render( $renderer );
+    }*/
+    
+    public function save( $data )
+    {
+        $userId = $this->user_model->save( $data );
+
+        $this->setAuthCredentials( $userId );
+
+        if ( !empty( $userId ) && is_numeric( $userId ) && check_email( $_POST['email'] ) ) {
+            $this->sendUserCredentials( $_POST );
+        }
+
+        if ( !empty( $userId ) && $_POST['optin'] == 1 && !empty( $_POST['parentEmail'] ) && check_email( $_POST['parentEmail'] ) ) {
+            $this->sendNewsletterVerification( $userId, $_POST['parentEmail'] );
+            $this->user_model->subscribeUser( $userId, $_POST['parentEmail'] );
+        }
+    }
+
+    public function authenticate( $fields )
+    {
+        if ( $userId = $this->user_model->authenticate( $fields['username'], $fields['login_password'] ) ) {
+            $this->setAuthCredentials( $userId );
+
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    public function validateUsername( $username )
+    {
+        if ( $username != $this->username ) {
+            return !$this->user_model->usernameExist( $username );
+        }
+
+        return true;
+    }
+
+    public function validateEmail( $email )
+    {
+        if ( $email != $this->email ) {
+            return !$this->user_model->emailExist( $email );
+        }
+    }
+
+    public function setAuthCredentials( $userId )
+    {
+        $sessionId = session_regenerate_id();
+        $user = new User($this->db, $userId);
+        $_SESSION['auth']['userId'] = $userId;
+        $_SESSION['auth']['username'] = $user->username;
+    }
+    
+    public function checkAuthentication()
+    {
+        if( !isset( $_SESSION['auth'] ) || !is_numeric( getUserId() ) ) {
+            header( "location: " . LOGIN_PAGE );
+            exit;
+        }
+    }
+    
+    public function updateUser( $data )
+    {
+        if ( !empty( $data['username'] ) ) {
+            $this->user_model->updateUsername( $data['userId'], $data['username'] );
+        }
+
+        if ( !empty( $data['password'] ) ) {
+            $this->user_model->updatePassword( $data['userId'], $data['password'] );
+        }
+
+        // TODO: if optin hasn't changed
+        if ( !empty( $data['optin'] ) ) {
+            $this->sendNewsletterVerification( $data['userId'], $data['parentEmail'] );
+            $this->user_model->subscribeUser( $data['userId'], $data['parentEmail'] );
+        }
+        else {
+            $this->user_model->unsubscribeUser( $data['userId'] );
+        }
+
+        if ( !empty( $data['codename'] ) ) {
+            $this->user_model->updateCodename( $data['userId'], $data['codename'] );
+        }
+    }
+
+    public function logOut()
+    {
+        $this->unsetAuthentication();
+    }
+
+    private function unsetAuthentication()
+    {
+        unset( $_SESSION['auth'] );
+        session_regenerate_id();
+    }
+
+    private function sendUserCredentials( $data )
+    {
+        $subject = 'Welcome to Cryptoclub!';
+        $body = 'Here\'s your username and password' . PHP_EOL;
+        $body .= 'Username: ' . $data['username'] . PHP_EOL;
+        $body .= 'Password: ' . $data['password'] . PHP_EOL;
+        $body .= 'Login Link: http://' . $_SERVER['HTTP_HOST'] . '/login.php';
+
+        $headers = '';
+
+        mail( $data['email'], $subject, $body );
+    }
+
+    private function sendNewsletterVerification( $userId, $parentEmail )
+    {
+        $subscriberData = $this->user_model->getSubscriberData( $userId );
+
+        if ( $subscriberData['parent_email'] != $parentEmail || $subscriberData['confirmed'] == '0' ) {
+            $subject = 'Newsletter Subscription Confirmation';
+            $body = 'Click the link below to confirm the newsletter subscription' . PHP_EOL;
+
+            $body .= 'http://' . $_SERVER['HTTP_HOST'] . '/verify.php?d=' . base64_encode( rc4( self::VERIFICATION_SALT . '-' . $userId ) );
+
+            mail( $parentEmail, $subject, $body );
+        }
+    }
+
+    public function verifiySubscriptionForm( $link )
+    {
+        $form = new HTML_QuickForm2( 'verify' );
+
+        $form->addElement( 'hidden', 'link' )->setValue( $link );
+        $form->addElement( 'hidden', 'action' )->setValue( 'verify' );
+        $form->addElement( 'static', 'text' )->setContent( 'Please verify your subscription' );
+        $form->addElement( 'submit', '&nbsp;', array( 'value' => 'Verify') );
+
+        if ( $form->validate() ) {
+            $this->verifySubscription( $_POST['link'] );
+        }
+
+        return $form;
+    }
+
+    public function verifySubscription( $link )
+    {
+        $link = rc4( base64_decode( $link ) );
+
+        $eLink = explode( '-', $link );
+
+        $userId = end( $eLink );
+
+        if ( !empty( $userId ) && is_numeric( $userId ) ) {
+            return $this->user_model->verifySubscription( $userId );
+        }
+        else {
+            return false;
+        }
+    }
+
+    private function resetPassword( $email )
+    {
+        $userData = $this->user_model->getUserDataByEmail( $email );
+
+        if ( !empty( $userData ) ) {
+            // set enabled to 0
+            $newPassword = get_unique_id( 8 );
+
+            // update record
+            $this->user_model->updatePassword( $userData['id'], $newPassword );
+
+            // send password
+            $this->sendPassword( $userData['id'], $newPassword );
+        }
+    }
+
+    private function sendPassword( $userId, $newPassword )
+    {
+        $userData = $this->user_model->getUser( $userId );
+
+        if ( !empty( $userData['email'] ) && check_email( $userData['email'] ) ) {
+            $subject = 'CryptoClub - Password Reset';
+
+            $body = 'Your new password is: ' . $newPassword . PHP_EOL;
+            $body .= 'Login at: http://' . $_SERVER['HTTP_HOST'] . '/login.php';
+
+            return mail( $userData['email'], $subject, $body );
+        }
+    }
+
+    public function showPasswords()
+    {
+        $users = $this->user_model->getUsers();
+
+        foreach ( $users as $user ) {
+            echo $user['username'] . ' - ' . $this->user_model->decryptPassword( $user['password'] ) . ' - ' . $user['password'] . '<br />';
+        }
+    }
+
+    public function checkAge( $age )
+    {
+        if ( $age == 'none' ) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    public function changeStatus( $userId, $status )
+    {
+        $this->user_model->changeStatus( $useId, $status );
+    }
+
+    public function logTime( $userId )
+    {
+        $this->user_model->logTime( $userId );
+    }
+
+    public function verify_optin()
+    {
+        el( func_get_args(), __LINE__ );
+    }
+    
+    public function greaterThan12( $age ) {
+        
+        switch( $age ) {
+            case "1-8":
+            case "9-12":
+                return false;
+                break;
+            default:
+                return true;
+                break;
+        }
+    }
+
+    public function load_codenames()
+    {
+        
+    }
+
+}

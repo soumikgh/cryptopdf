@@ -1,0 +1,4 @@
+.data { border-collapse:collapse }
+.data td { border-bottom: 1px solid #806B00; padding-bottom:5px;padding-top:5px;}
+.profile_groups {width:100%;border-collapse: collapse}
+.profile_groups td {padding:5px;border-bottom:1px dotted black}

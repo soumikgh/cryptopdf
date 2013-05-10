@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <ciphers>
+        <cipher>
+            <name/>
+        </cipher>
+        <cipher>
+            <name>Additive</name>
+        </cipher>
+        <cipher>
+            <name>Affine</name>
+        </cipher>
+        <cipher>
+            <name>Caesar</name>
+        </cipher>
+        <cipher>
+            <name>Keyword</name>
+        </cipher>
+        <cipher>
+            <name>Multiplicative</name>
+        </cipher>
+        <cipher>
+            <name>Vigenère</name>
+        </cipher>
+    </ciphers>
+    
+    <themes>
+        <theme>
+            <name/>
+        </theme>
+        <theme>
+            <name>1776 Declaration</name>
+        </theme>
+        <theme>
+            <name>Lincoln Address</name>
+        </theme>
+        <theme>
+            <name>Presidential Joke</name>
+        </theme>
+        <theme>
+            <name>Monticello Home</name>
+        </theme>
+        <theme>
+            <name>This is a longer theme for testing.</name>
+        </theme>
+        <theme>
+            <name>test</name>
+        </theme>
+        <theme>
+            <name>Theme Name 1</name>
+        </theme>
+        <theme>
+            <name>New Theme</name>
+        </theme>
+        <theme>
+            <name>Test2</name>
+        </theme>
+        <theme>
+            <name>test3</name>
+        </theme>
+        <theme>
+            <name>test4</name>
+        </theme>
+        <theme>
+            <name>test7</name>
+        </theme>
+        <theme>
+            <name>test8</name>
+        </theme>
+        <theme>
+            <name>a</name>
+        </theme>
+        <theme>
+            <name>b</name>
+        </theme>
+    <theme><name>c</name></theme><theme><name>d</name></theme><theme><name>f</name></theme><theme><name>aewg</name></theme></themes>
+    <difficulties>
+        <difficulty>
+            <name/>
+        </difficulty>
+        <difficulty>
+            <name>Easy</name>
+        </difficulty>
+        <difficulty>
+            <name>Medium</name>
+        </difficulty>
+        <difficulty>
+            <name>Difficult</name>
+        </difficulty>
+    </difficulties>
+</root>

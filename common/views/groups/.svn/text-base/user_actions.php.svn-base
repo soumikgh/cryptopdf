@@ -1,0 +1,1 @@
+<a href="?action=removeUser&amp;userId=<?php echo $userId ?>&amp;groupId=<?php echo $groupId ?>">Remove User</a>

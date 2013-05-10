@@ -1,0 +1,9 @@
+.error {color:red}
+
+#subtitle_login {padding:3px 0px 0px 102px; height:42px; width:810px; float:left;}
+#btn_login {
+    padding-top:13px;
+}
+#codenameDescription {
+    padding-top:3px;
+}

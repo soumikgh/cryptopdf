@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/cryptopdf/!svn/ver/750/public_html/common/views/groups
+END
+list.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cryptopdf/!svn/ver/730/public_html/common/views/groups/list.php
+END
+new_group_msg.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/82/public_html/common/views/groups/new_group_msg.php
+END
+group.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cryptopdf/!svn/ver/587/public_html/common/views/groups/group.php
+END
+profile_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cryptopdf/!svn/ver/591/public_html/common/views/groups/profile_group.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cryptopdf/!svn/ver/438/public_html/common/views/groups/user.php
+END
+user_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cryptopdf/!svn/ver/67/public_html/common/views/groups/user_actions.php
+END
+user_profile.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/539/public_html/common/views/groups/user_profile.php
+END
+stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cryptopdf/!svn/ver/535/public_html/common/views/groups/stats.php
+END
+profile_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cryptopdf/!svn/ver/450/public_html/common/views/groups/profile_groups.php
+END
+actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/cryptopdf/!svn/ver/673/public_html/common/views/groups/actions.php
+END
+users.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cryptopdf/!svn/ver/592/public_html/common/views/groups/users.php
+END
+belong_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cryptopdf/!svn/ver/750/public_html/common/views/groups/belong_group.php
+END
+belong_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cryptopdf/!svn/ver/204/public_html/common/views/groups/belong_groups.php
+END
+forms.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cryptopdf/!svn/ver/67/public_html/common/views/groups/forms.php
+END

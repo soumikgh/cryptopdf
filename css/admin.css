@@ -1,0 +1,73 @@
+
+#content h1 {
+
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+#header {
+    padding-top:27px;
+    padding-left:25px;
+    padding-right:25px;
+    margin-bottom:20px;
+    height:38px;
+    background-image: url( '/images/bkg_header.gif' );
+    font-size: 18px;
+    color: #999999;
+}
+
+#header p, #header b {font-size:18px}
+#header ul {
+    float:right;
+    margin-right:25px;
+}
+
+#header ul li {float:left;}
+#username{
+    color:white;
+}
+
+#logout{
+    color:#ffdc00;
+}
+
+#header p b {color:white}
+
+.noheader {
+    background-image:none;
+}
+
+#mycarousel li{
+    margin-left:10px;
+}
+
+#content {
+    float:left;
+    margin-left:38px;
+}
+
+#left_column {
+    float:left;
+}
+
+
+.even { background-color: #cccccc; }
+.odd { background-color: #e6e6e6 }
+
+fieldset {
+    width:225px;
+    float: left;
+    margin-right:15px;
+    padding:15px;
+}
+
+legend {
+    white-space: nowrap;
+}
+.selectAll, .deselectAll {
+
+}
+
+th {
+    bacground-color: grey;
+}

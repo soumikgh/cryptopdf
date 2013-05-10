@@ -1,0 +1,4 @@
+.stats {border-collapse: collapse; font-weight:bold; width:100%}
+.stats td {padding:5px 5px 5px 15px}
+.blue { background-color: #2368ef; padding:10px; color:white;}
+.center{text-align:center}

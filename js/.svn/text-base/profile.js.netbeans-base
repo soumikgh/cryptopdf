@@ -1,0 +1,40 @@
+$(document).ready( function() {
+     $("#toggle_link").click( function(e){
+        e.preventDefault();
+        
+        if( $("#toggle_link > img").attr( 'src' ) == '/images/btn_checkmark2_off.gif' ) {
+            $( "#toggle_link > img").attr( 'src', '/images/btn_checkmark2_on.gif' );
+            $("input[name=optin]" ).val( '1' );
+            $("#parents_email").show();
+            join_newsletter = true;
+        }
+        else {
+            $( "#toggle_link > img").attr( 'src', '/images/btn_checkmark2_off.gif' );
+            $("input[name=optin]" ).val( '0' );
+            $("#parents_email").hide();
+            $("#email_parent").val('');
+            join_newsletter = false;
+        }
+    })
+    
+    $(".codename").live( 'click', function(){
+        var codename =  $(this).html();
+        
+        $.get( '/process.php?action=codename&codename='+$(this).html(), function(number) {
+            $("#codenameCounter").val( number );
+            
+            $("#display_codename" ).html( codename+'-'+number );
+            $("input[name=codename]").val( codename );
+            $("#encrypted_text").val('');
+            $("#encrypted_status").html('<em>Not Encrypted</em>');
+            $("input[name=current_cipher]").val('');
+            $("#encrypted").val( 'false' );
+            $("#codename_choose").hide();
+        });
+        
+    })
+    
+    $("#button_encrypt").click( function(e){
+        $("#encrypted").val( 'true' );
+    })
+})
